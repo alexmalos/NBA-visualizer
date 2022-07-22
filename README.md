@@ -1,13 +1,13 @@
 # NBA Visualizer
 
 ## Background
-This app is intended to be a visually appealing way to view statistics for NBA players.
+This app is intended to be a visually appealing way to view statistics for NBA players. Data is rendered in a bubble chart that shows each player as a bubble with the size of the bubble corresponding to the player's performance in the stat that is being viewed. Data is sourced from StatMuse and will be available for every team as well as league-wide, from 2022 going all the way back to the founding of the NBA in 1947.
 
 ## Functionality & MVPs
 With this NBA visualizer, users will be able to:
 - Select which visualization to see by year, team, and statistic
 - See an animated bubble chart showing the specified stat for players in relation to their teammates or the whole league
-- Each bubble contains a player headshot and can be enlarged on hover
+- Each bubble contains a player headshot and can be enlarged on hover to show details
 - Download the current chart as a PNG
   
 In addition, this project will include:
