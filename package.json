@@ -1,0 +1,39 @@
+{
+  "name": "nba-visualizer",
+  "version": "1.0.0",
+  "description": "## Background This app is intended to be a visually appealing way to view statistics for NBA players. Data is rendered in a bubble chart that shows each player as a bubble with the size of the bubble corresponding to the player's performance in the stat that is being viewed. Data is sourced from [StatMuse](statmuse.com) and will be available for every team as well as league-wide, from 2022 going all the way back to the founding of the NBA in 1947.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmalos/NBA-visualizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmalos/NBA-visualizer/issues"
+  },
+  "homepage": "https://github.com/alexmalos/NBA-visualizer#readme",
+  "dependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "babel-loader": "^8.2.5",
+    "core-js": "^3.23.5",
+    "css-loader": "^6.7.1",
+    "d3": "^7.6.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}

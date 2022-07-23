@@ -1,0 +1,3774 @@
+{"gridGroups": [
+    {
+        "grid": {
+            "columns": [
+                {
+                    "rowItemKey": "PLAYER",
+                    "title": "",
+                    "type": "string"
+                },
+                {
+                    "rowItemKey": "GP",
+                    "title": "GP",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "GS",
+                    "title": "GS",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "MIN",
+                    "title": "MIN",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "FGM",
+                    "title": "FGM",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "FGA",
+                    "title": "FGA",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "FG%",
+                    "title": "FG%",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "3PM",
+                    "title": "3PM",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "3PA",
+                    "title": "3PA",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "3P%",
+                    "title": "3P%",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "FTM",
+                    "title": "FTM",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "FTA",
+                    "title": "FTA",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "FT%",
+                    "title": "FT%",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "OREB",
+                    "title": "OREB",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "DREB",
+                    "title": "DREB",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "REB",
+                    "title": "REB",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "AST",
+                    "title": "AST",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "STL",
+                    "title": "STL",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "BLK",
+                    "title": "BLK",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "TOV",
+                    "title": "TOV",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "PF",
+                    "title": "PF",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "PTS",
+                    "title": "PTS",
+                    "type": "number"
+                }
+            ],
+            "name": "Regular Season",
+            "rows": [
+                {
+                    "3P%": {
+                        "display": "38.0",
+                        "value": 38
+                    },
+                    "3PA": {
+                        "display": "11.7",
+                        "value": 11.71875
+                    },
+                    "3PM": {
+                        "display": "4.5",
+                        "value": 4.453125
+                    },
+                    "AST": {
+                        "display": "6.3",
+                        "value": 6.3125
+                    },
+                    "BLK": {
+                        "display": "0.4",
+                        "value": 0.359375
+                    },
+                    "DREB": {
+                        "display": "4.7",
+                        "value": 4.703125
+                    },
+                    "FG%": {
+                        "display": "43.7",
+                        "value": 43.709150326797385
+                    },
+                    "FGA": {
+                        "display": "19.1",
+                        "value": 19.125
+                    },
+                    "FGM": {
+                        "display": "8.4",
+                        "value": 8.359375
+                    },
+                    "FT%": {
+                        "display": "92.3",
+                        "value": 92.28187919463087
+                    },
+                    "FTA": {
+                        "display": "4.7",
+                        "value": 4.65625
+                    },
+                    "FTM": {
+                        "display": "4.3",
+                        "value": 4.296875
+                    },
+                    "GP": {
+                        "display": "64",
+                        "entity": {
+                            "baseResourcePath": "nba/players/787",
+                            "display": "Stephen Curry",
+                            "domain": "NBA",
+                            "id": "787",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 64
+                    },
+                    "GS": {
+                        "display": "64",
+                        "value": 64
+                    },
+                    "MIN": {
+                        "display": "34.5",
+                        "value": 34.546875
+                    },
+                    "OREB": {
+                        "display": "0.5",
+                        "value": 0.53125
+                    },
+                    "PF": {
+                        "display": "2.0",
+                        "value": 2.03125
+                    },
+                    "PLAYER": {
+                        "display": "Stephen Curry",
+                        "entity": {
+                            "baseResourcePath": "nba/players/787",
+                            "display": "Stephen Curry",
+                            "domain": "NBA",
+                            "id": "787",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-stephen-curry2021-min-1---hw2hav_b.png",
+                        "value": "Curry, Stephen"
+                    },
+                    "PTS": {
+                        "display": "25.5",
+                        "value": 25.46875
+                    },
+                    "REB": {
+                        "display": "5.2",
+                        "value": 5.234375
+                    },
+                    "STL": {
+                        "display": "1.3",
+                        "value": 1.328125
+                    },
+                    "TOV": {
+                        "display": "3.2",
+                        "value": 3.21875
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "39.3",
+                        "value": 39.34837092731829
+                    },
+                    "3PA": {
+                        "display": "5.5",
+                        "value": 5.465753424657534
+                    },
+                    "3PM": {
+                        "display": "2.2",
+                        "value": 2.1506849315068495
+                    },
+                    "AST": {
+                        "display": "2.2",
+                        "value": 2.2054794520547945
+                    },
+                    "BLK": {
+                        "display": "0.7",
+                        "value": 0.6986301369863014
+                    },
+                    "DREB": {
+                        "display": "3.3",
+                        "value": 3.287671232876712
+                    },
+                    "FG%": {
+                        "display": "46.6",
+                        "value": 46.61432777232581
+                    },
+                    "FGA": {
+                        "display": "14.0",
+                        "value": 13.95890410958904
+                    },
+                    "FGM": {
+                        "display": "6.5",
+                        "value": 6.506849315068493
+                    },
+                    "FT%": {
+                        "display": "63.4",
+                        "value": 63.40425531914894
+                    },
+                    "FTA": {
+                        "display": "3.2",
+                        "value": 3.219178082191781
+                    },
+                    "FTM": {
+                        "display": "2.0",
+                        "value": 2.041095890410959
+                    },
+                    "GP": {
+                        "display": "73",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9186",
+                            "display": "Andrew Wiggins",
+                            "domain": "NBA",
+                            "id": "9186",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 73
+                    },
+                    "GS": {
+                        "display": "73",
+                        "value": 73
+                    },
+                    "MIN": {
+                        "display": "31.9",
+                        "value": 31.904109589041095
+                    },
+                    "OREB": {
+                        "display": "1.2",
+                        "value": 1.1643835616438356
+                    },
+                    "PF": {
+                        "display": "2.2",
+                        "value": 2.164383561643836
+                    },
+                    "PLAYER": {
+                        "display": "Andrew Wiggins",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9186",
+                            "display": "Andrew Wiggins",
+                            "domain": "NBA",
+                            "id": "9186",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-andrew-wiggins2022-min--uthxuclk.png",
+                        "value": "Wiggins, Andrew"
+                    },
+                    "PTS": {
+                        "display": "17.2",
+                        "value": 17.205479452054796
+                    },
+                    "REB": {
+                        "display": "4.5",
+                        "value": 4.4520547945205475
+                    },
+                    "STL": {
+                        "display": "1.0",
+                        "value": 1.0410958904109588
+                    },
+                    "TOV": {
+                        "display": "1.5",
+                        "value": 1.5205479452054795
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "36.4",
+                        "value": 36.37931034482759
+                    },
+                    "3PA": {
+                        "display": "7.6",
+                        "value": 7.631578947368421
+                    },
+                    "3PM": {
+                        "display": "2.8",
+                        "value": 2.776315789473684
+                    },
+                    "AST": {
+                        "display": "4.0",
+                        "value": 4
+                    },
+                    "BLK": {
+                        "display": "0.3",
+                        "value": 0.3026315789473684
+                    },
+                    "DREB": {
+                        "display": "3.0",
+                        "value": 2.973684210526316
+                    },
+                    "FG%": {
+                        "display": "44.8",
+                        "value": 44.801512287334596
+                    },
+                    "FGA": {
+                        "display": "13.9",
+                        "value": 13.921052631578947
+                    },
+                    "FGM": {
+                        "display": "6.2",
+                        "value": 6.2368421052631575
+                    },
+                    "FT%": {
+                        "display": "92.5",
+                        "value": 92.4812030075188
+                    },
+                    "FTA": {
+                        "display": "3.5",
+                        "value": 3.5
+                    },
+                    "FTM": {
+                        "display": "3.2",
+                        "value": 3.236842105263158
+                    },
+                    "GP": {
+                        "display": "76",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10002",
+                            "display": "Jordan Poole",
+                            "domain": "NBA",
+                            "id": "10002",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 76
+                    },
+                    "GS": {
+                        "display": "51",
+                        "value": 51
+                    },
+                    "MIN": {
+                        "display": "30.0",
+                        "value": 30.039473684210527
+                    },
+                    "OREB": {
+                        "display": "0.4",
+                        "value": 0.4473684210526316
+                    },
+                    "PF": {
+                        "display": "2.7",
+                        "value": 2.710526315789474
+                    },
+                    "PLAYER": {
+                        "display": "Jordan Poole",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10002",
+                            "display": "Jordan Poole",
+                            "domain": "NBA",
+                            "id": "10002",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriiors-jordan-poole2022-min--wgxgp7ed.png",
+                        "value": "Poole, Jordan"
+                    },
+                    "PTS": {
+                        "display": "18.5",
+                        "value": 18.486842105263158
+                    },
+                    "REB": {
+                        "display": "3.4",
+                        "value": 3.4210526315789473
+                    },
+                    "STL": {
+                        "display": "0.8",
+                        "value": 0.7894736842105263
+                    },
+                    "TOV": {
+                        "display": "2.5",
+                        "value": 2.460526315789474
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "38.5",
+                        "value": 38.513513513513516
+                    },
+                    "3PA": {
+                        "display": "9.3",
+                        "value": 9.25
+                    },
+                    "3PM": {
+                        "display": "3.6",
+                        "value": 3.5625
+                    },
+                    "AST": {
+                        "display": "2.8",
+                        "value": 2.75
+                    },
+                    "BLK": {
+                        "display": "0.5",
+                        "value": 0.53125
+                    },
+                    "DREB": {
+                        "display": "3.4",
+                        "value": 3.4375
+                    },
+                    "FG%": {
+                        "display": "42.9",
+                        "value": 42.931937172774866
+                    },
+                    "FGA": {
+                        "display": "17.9",
+                        "value": 17.90625
+                    },
+                    "FGM": {
+                        "display": "7.7",
+                        "value": 7.6875
+                    },
+                    "FT%": {
+                        "display": "90.2",
+                        "value": 90.19607843137256
+                    },
+                    "FTA": {
+                        "display": "1.6",
+                        "value": 1.59375
+                    },
+                    "FTM": {
+                        "display": "1.4",
+                        "value": 1.4375
+                    },
+                    "GP": {
+                        "display": "32",
+                        "entity": {
+                            "baseResourcePath": "nba/players/3674",
+                            "display": "Klay Thompson",
+                            "domain": "NBA",
+                            "id": "3674",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 32
+                    },
+                    "GS": {
+                        "display": "32",
+                        "value": 32
+                    },
+                    "MIN": {
+                        "display": "29.4",
+                        "value": 29.40625
+                    },
+                    "OREB": {
+                        "display": "0.5",
+                        "value": 0.46875
+                    },
+                    "PF": {
+                        "display": "1.7",
+                        "value": 1.6875
+                    },
+                    "PLAYER": {
+                        "display": "Klay Thompson",
+                        "entity": {
+                            "baseResourcePath": "nba/players/3674",
+                            "display": "Klay Thompson",
+                            "domain": "NBA",
+                            "id": "3674",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-klay-thompson2021-min--dkefsyua.png",
+                        "value": "Thompson, Klay"
+                    },
+                    "PTS": {
+                        "display": "20.4",
+                        "value": 20.375
+                    },
+                    "REB": {
+                        "display": "3.9",
+                        "value": 3.90625
+                    },
+                    "STL": {
+                        "display": "0.5",
+                        "value": 0.5
+                    },
+                    "TOV": {
+                        "display": "1.3",
+                        "value": 1.34375
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "29.6",
+                        "value": 29.62962962962963
+                    },
+                    "3PA": {
+                        "display": "1.2",
+                        "value": 1.173913043478261
+                    },
+                    "3PM": {
+                        "display": "0.3",
+                        "value": 0.34782608695652173
+                    },
+                    "AST": {
+                        "display": "7.0",
+                        "value": 6.956521739130435
+                    },
+                    "BLK": {
+                        "display": "1.1",
+                        "value": 1.0869565217391304
+                    },
+                    "DREB": {
+                        "display": "6.3",
+                        "value": 6.326086956521739
+                    },
+                    "FG%": {
+                        "display": "52.5",
+                        "value": 52.52918287937743
+                    },
+                    "FGA": {
+                        "display": "5.6",
+                        "value": 5.586956521739131
+                    },
+                    "FGM": {
+                        "display": "2.9",
+                        "value": 2.9347826086956523
+                    },
+                    "FT%": {
+                        "display": "65.9",
+                        "value": 65.93406593406593
+                    },
+                    "FTA": {
+                        "display": "2.0",
+                        "value": 1.9782608695652173
+                    },
+                    "FTM": {
+                        "display": "1.3",
+                        "value": 1.3043478260869565
+                    },
+                    "GP": {
+                        "display": "46",
+                        "entity": {
+                            "baseResourcePath": "nba/players/1374",
+                            "display": "Draymond Green",
+                            "domain": "NBA",
+                            "id": "1374",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 46
+                    },
+                    "GS": {
+                        "display": "44",
+                        "value": 44
+                    },
+                    "MIN": {
+                        "display": "28.9",
+                        "value": 28.891304347826086
+                    },
+                    "OREB": {
+                        "display": "1.0",
+                        "value": 0.9782608695652174
+                    },
+                    "PF": {
+                        "display": "3.0",
+                        "value": 2.9565217391304346
+                    },
+                    "PLAYER": {
+                        "display": "Draymond Green",
+                        "entity": {
+                            "baseResourcePath": "nba/players/1374",
+                            "display": "Draymond Green",
+                            "domain": "NBA",
+                            "id": "1374",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-draymond-green2018-min--ml0c-oct.png",
+                        "value": "Green, Draymond"
+                    },
+                    "PTS": {
+                        "display": "7.5",
+                        "value": 7.521739130434782
+                    },
+                    "REB": {
+                        "display": "7.3",
+                        "value": 7.304347826086956
+                    },
+                    "STL": {
+                        "display": "1.3",
+                        "value": 1.326086956521739
+                    },
+                    "TOV": {
+                        "display": "3.0",
+                        "value": 3.0217391304347827
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "37.0",
+                        "value": 37.03703703703704
+                    },
+                    "3PA": {
+                        "display": "3.4",
+                        "value": 3.4285714285714284
+                    },
+                    "3PM": {
+                        "display": "1.3",
+                        "value": 1.2698412698412698
+                    },
+                    "AST": {
+                        "display": "1.5",
+                        "value": 1.492063492063492
+                    },
+                    "BLK": {
+                        "display": "0.5",
+                        "value": 0.4603174603174603
+                    },
+                    "DREB": {
+                        "display": "4.4",
+                        "value": 4.380952380952381
+                    },
+                    "FG%": {
+                        "display": "46.4",
+                        "value": 46.39423076923077
+                    },
+                    "FGA": {
+                        "display": "6.6",
+                        "value": 6.603174603174603
+                    },
+                    "FGM": {
+                        "display": "3.1",
+                        "value": 3.0634920634920637
+                    },
+                    "FT%": {
+                        "display": "80.3",
+                        "value": 80.32786885245902
+                    },
+                    "FTA": {
+                        "display": "1.0",
+                        "value": 0.9682539682539683
+                    },
+                    "FTM": {
+                        "display": "0.8",
+                        "value": 0.7777777777777778
+                    },
+                    "GP": {
+                        "display": "63",
+                        "entity": {
+                            "baseResourcePath": "nba/players/2954",
+                            "display": "Otto Porter Jr.",
+                            "domain": "NBA",
+                            "id": "2954",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 63
+                    },
+                    "GS": {
+                        "display": "15",
+                        "value": 15
+                    },
+                    "MIN": {
+                        "display": "22.2",
+                        "value": 22.158730158730158
+                    },
+                    "OREB": {
+                        "display": "1.4",
+                        "value": 1.3650793650793651
+                    },
+                    "PF": {
+                        "display": "1.3",
+                        "value": 1.3174603174603174
+                    },
+                    "PLAYER": {
+                        "display": "Otto Porter Jr.",
+                        "entity": {
+                            "baseResourcePath": "nba/players/2954",
+                            "display": "Otto Porter Jr.",
+                            "domain": "NBA",
+                            "id": "2954",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-otto-porter-jr2021-min--ovv9rayq.png",
+                        "value": "Porter, Otto"
+                    },
+                    "PTS": {
+                        "display": "8.2",
+                        "value": 8.174603174603174
+                    },
+                    "REB": {
+                        "display": "5.7",
+                        "value": 5.746031746031746
+                    },
+                    "STL": {
+                        "display": "1.1",
+                        "value": 1.0793650793650793
+                    },
+                    "TOV": {
+                        "display": "0.6",
+                        "value": 0.5873015873015873
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "0.0",
+                        "value": 0
+                    },
+                    "3PA": {
+                        "display": "0.0",
+                        "value": 0.012195121951219513
+                    },
+                    "3PM": {
+                        "display": "0.0",
+                        "value": 0
+                    },
+                    "AST": {
+                        "display": "2.0",
+                        "value": 2.0121951219512195
+                    },
+                    "BLK": {
+                        "display": "0.6",
+                        "value": 0.6341463414634146
+                    },
+                    "DREB": {
+                        "display": "4.7",
+                        "value": 4.7317073170731705
+                    },
+                    "FG%": {
+                        "display": "57.1",
+                        "value": 57.142857142857146
+                    },
+                    "FGA": {
+                        "display": "4.4",
+                        "value": 4.439024390243903
+                    },
+                    "FGM": {
+                        "display": "2.5",
+                        "value": 2.5365853658536586
+                    },
+                    "FT%": {
+                        "display": "60.0",
+                        "value": 60
+                    },
+                    "FTA": {
+                        "display": "1.5",
+                        "value": 1.524390243902439
+                    },
+                    "FTM": {
+                        "display": "0.9",
+                        "value": 0.9146341463414634
+                    },
+                    "GP": {
+                        "display": "82",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9318",
+                            "display": "Kevon Looney",
+                            "domain": "NBA",
+                            "id": "9318",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 82
+                    },
+                    "GS": {
+                        "display": "80",
+                        "value": 80
+                    },
+                    "MIN": {
+                        "display": "21.1",
+                        "value": 21.121951219512194
+                    },
+                    "OREB": {
+                        "display": "2.5",
+                        "value": 2.5365853658536586
+                    },
+                    "PF": {
+                        "display": "2.6",
+                        "value": 2.6219512195121952
+                    },
+                    "PLAYER": {
+                        "display": "Kevon Looney",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9318",
+                            "display": "Kevon Looney",
+                            "domain": "NBA",
+                            "id": "9318",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-kevon-looney2022-min--b__1bp6s.png",
+                        "value": "Looney, Kevon"
+                    },
+                    "PTS": {
+                        "display": "6.0",
+                        "value": 5.987804878048781
+                    },
+                    "REB": {
+                        "display": "7.3",
+                        "value": 7.2682926829268295
+                    },
+                    "STL": {
+                        "display": "0.6",
+                        "value": 0.6097560975609756
+                    },
+                    "TOV": {
+                        "display": "0.8",
+                        "value": 0.8170731707317073
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "33.7",
+                        "value": 33.68983957219251
+                    },
+                    "3PA": {
+                        "display": "3.0",
+                        "value": 2.9682539682539684
+                    },
+                    "3PM": {
+                        "display": "1.0",
+                        "value": 1
+                    },
+                    "AST": {
+                        "display": "1.0",
+                        "value": 1
+                    },
+                    "BLK": {
+                        "display": "0.1",
+                        "value": 0.09523809523809523
+                    },
+                    "DREB": {
+                        "display": "2.8",
+                        "value": 2.7936507936507935
+                    },
+                    "FG%": {
+                        "display": "44.1",
+                        "value": 44.12532637075718
+                    },
+                    "FGA": {
+                        "display": "6.1",
+                        "value": 6.079365079365079
+                    },
+                    "FGM": {
+                        "display": "2.7",
+                        "value": 2.6825396825396823
+                    },
+                    "FT%": {
+                        "display": "88.0",
+                        "value": 88
+                    },
+                    "FTA": {
+                        "display": "1.2",
+                        "value": 1.1904761904761905
+                    },
+                    "FTM": {
+                        "display": "1.0",
+                        "value": 1.0476190476190477
+                    },
+                    "GP": {
+                        "display": "63",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9538",
+                            "display": "Damion Lee",
+                            "domain": "NBA",
+                            "id": "9538",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 63
+                    },
+                    "GS": {
+                        "display": "5",
+                        "value": 5
+                    },
+                    "MIN": {
+                        "display": "19.9",
+                        "value": 19.936507936507937
+                    },
+                    "OREB": {
+                        "display": "0.4",
+                        "value": 0.42857142857142855
+                    },
+                    "PF": {
+                        "display": "1.5",
+                        "value": 1.507936507936508
+                    },
+                    "PLAYER": {
+                        "display": "Damion Lee",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9538",
+                            "display": "Damion Lee",
+                            "domain": "NBA",
+                            "id": "9538",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/teams/Golden-State-Warriors-Silhouette.png",
+                        "value": "Lee, Damion"
+                    },
+                    "PTS": {
+                        "display": "7.4",
+                        "value": 7.412698412698413
+                    },
+                    "REB": {
+                        "display": "3.2",
+                        "value": 3.2222222222222223
+                    },
+                    "STL": {
+                        "display": "0.6",
+                        "value": 0.6190476190476191
+                    },
+                    "TOV": {
+                        "display": "0.6",
+                        "value": 0.6031746031746031
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "23.0",
+                        "value": 22.972972972972972
+                    },
+                    "3PA": {
+                        "display": "2.4",
+                        "value": 2.3870967741935485
+                    },
+                    "3PM": {
+                        "display": "0.5",
+                        "value": 0.5483870967741935
+                    },
+                    "AST": {
+                        "display": "3.7",
+                        "value": 3.6774193548387095
+                    },
+                    "BLK": {
+                        "display": "0.7",
+                        "value": 0.7096774193548387
+                    },
+                    "DREB": {
+                        "display": "2.5",
+                        "value": 2.5483870967741935
+                    },
+                    "FG%": {
+                        "display": "38.0",
+                        "value": 38.01652892561984
+                    },
+                    "FGA": {
+                        "display": "3.9",
+                        "value": 3.903225806451613
+                    },
+                    "FGM": {
+                        "display": "1.5",
+                        "value": 1.4838709677419355
+                    },
+                    "FT%": {
+                        "display": "75.0",
+                        "value": 75
+                    },
+                    "FTA": {
+                        "display": "0.6",
+                        "value": 0.6451612903225806
+                    },
+                    "FTM": {
+                        "display": "0.5",
+                        "value": 0.4838709677419355
+                    },
+                    "GP": {
+                        "display": "31",
+                        "entity": {
+                            "baseResourcePath": "nba/players/1724",
+                            "display": "Andre Iguodala",
+                            "domain": "NBA",
+                            "id": "1724",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 31
+                    },
+                    "GS": {
+                        "display": "0",
+                        "value": 0
+                    },
+                    "MIN": {
+                        "display": "19.5",
+                        "value": 19.451612903225808
+                    },
+                    "OREB": {
+                        "display": "0.7",
+                        "value": 0.6774193548387096
+                    },
+                    "PF": {
+                        "display": "1.1",
+                        "value": 1.096774193548387
+                    },
+                    "PLAYER": {
+                        "display": "Andre Iguodala",
+                        "entity": {
+                            "baseResourcePath": "nba/players/1724",
+                            "display": "Andre Iguodala",
+                            "domain": "NBA",
+                            "id": "1724",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-andre-iguodala-min--zvxyhnph.png",
+                        "value": "Iguodala, Andre"
+                    },
+                    "PTS": {
+                        "display": "4.0",
+                        "value": 4
+                    },
+                    "REB": {
+                        "display": "3.2",
+                        "value": 3.225806451612903
+                    },
+                    "STL": {
+                        "display": "0.9",
+                        "value": 0.8709677419354839
+                    },
+                    "TOV": {
+                        "display": "0.9",
+                        "value": 0.9032258064516129
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "35.8",
+                        "value": 35.833333333333336
+                    },
+                    "3PA": {
+                        "display": "1.7",
+                        "value": 1.6901408450704225
+                    },
+                    "3PM": {
+                        "display": "0.6",
+                        "value": 0.6056338028169014
+                    },
+                    "AST": {
+                        "display": "0.9",
+                        "value": 0.9014084507042254
+                    },
+                    "BLK": {
+                        "display": "0.3",
+                        "value": 0.30985915492957744
+                    },
+                    "DREB": {
+                        "display": "2.5",
+                        "value": 2.464788732394366
+                    },
+                    "FG%": {
+                        "display": "61.6",
+                        "value": 61.627906976744185
+                    },
+                    "FGA": {
+                        "display": "4.8",
+                        "value": 4.845070422535211
+                    },
+                    "FGM": {
+                        "display": "3.0",
+                        "value": 2.9859154929577465
+                    },
+                    "FT%": {
+                        "display": "60.3",
+                        "value": 60.3448275862069
+                    },
+                    "FTA": {
+                        "display": "0.8",
+                        "value": 0.8169014084507042
+                    },
+                    "FTM": {
+                        "display": "0.5",
+                        "value": 0.49295774647887325
+                    },
+                    "GP": {
+                        "display": "71",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9532",
+                            "display": "Gary Payton II",
+                            "domain": "NBA",
+                            "id": "9532",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 71
+                    },
+                    "GS": {
+                        "display": "16",
+                        "value": 16
+                    },
+                    "MIN": {
+                        "display": "17.6",
+                        "value": 17.56338028169014
+                    },
+                    "OREB": {
+                        "display": "1.0",
+                        "value": 1.0140845070422535
+                    },
+                    "PF": {
+                        "display": "1.8",
+                        "value": 1.8450704225352113
+                    },
+                    "PLAYER": {
+                        "display": "Gary Payton II",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9532",
+                            "display": "Gary Payton II",
+                            "domain": "NBA",
+                            "id": "9532",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-gary-payton-ii-min--rqwcnv10.png",
+                        "value": "Payton, Gary"
+                    },
+                    "PTS": {
+                        "display": "7.1",
+                        "value": 7.070422535211268
+                    },
+                    "REB": {
+                        "display": "3.5",
+                        "value": 3.4788732394366195
+                    },
+                    "STL": {
+                        "display": "1.4",
+                        "value": 1.352112676056338
+                    },
+                    "TOV": {
+                        "display": "0.6",
+                        "value": 0.5633802816901409
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "33.6",
+                        "value": 33.557046979865774
+                    },
+                    "3PA": {
+                        "display": "2.1",
+                        "value": 2.1285714285714286
+                    },
+                    "3PM": {
+                        "display": "0.7",
+                        "value": 0.7142857142857143
+                    },
+                    "AST": {
+                        "display": "0.9",
+                        "value": 0.9142857142857143
+                    },
+                    "BLK": {
+                        "display": "0.3",
+                        "value": 0.3142857142857143
+                    },
+                    "DREB": {
+                        "display": "2.6",
+                        "value": 2.5714285714285716
+                    },
+                    "FG%": {
+                        "display": "51.3",
+                        "value": 51.30434782608695
+                    },
+                    "FGA": {
+                        "display": "6.6",
+                        "value": 6.571428571428571
+                    },
+                    "FGM": {
+                        "display": "3.4",
+                        "value": 3.3714285714285714
+                    },
+                    "FT%": {
+                        "display": "68.4",
+                        "value": 68.42105263157895
+                    },
+                    "FTA": {
+                        "display": "2.7",
+                        "value": 2.7142857142857144
+                    },
+                    "FTM": {
+                        "display": "1.9",
+                        "value": 1.8571428571428572
+                    },
+                    "GP": {
+                        "display": "70",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10324",
+                            "display": "Jonathan Kuminga",
+                            "domain": "NBA",
+                            "id": "10324",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 70
+                    },
+                    "GS": {
+                        "display": "12",
+                        "value": 12
+                    },
+                    "MIN": {
+                        "display": "16.9",
+                        "value": 16.928571428571427
+                    },
+                    "OREB": {
+                        "display": "0.8",
+                        "value": 0.7714285714285715
+                    },
+                    "PF": {
+                        "display": "2.1",
+                        "value": 2.085714285714286
+                    },
+                    "PLAYER": {
+                        "display": "Jonathan Kuminga",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10324",
+                            "display": "Jonathan Kuminga",
+                            "domain": "NBA",
+                            "id": "10324",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-jonathan-kuminga-min--fje8jwjx.png",
+                        "value": "Kuminga, Jonathan"
+                    },
+                    "PTS": {
+                        "display": "9.3",
+                        "value": 9.314285714285715
+                    },
+                    "REB": {
+                        "display": "3.3",
+                        "value": 3.342857142857143
+                    },
+                    "STL": {
+                        "display": "0.4",
+                        "value": 0.44285714285714284
+                    },
+                    "TOV": {
+                        "display": "1.1",
+                        "value": 1.0571428571428572
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "36.2",
+                        "value": 36.241610738255034
+                    },
+                    "3PA": {
+                        "display": "2.1",
+                        "value": 2.0985915492957745
+                    },
+                    "3PM": {
+                        "display": "0.8",
+                        "value": 0.7605633802816901
+                    },
+                    "AST": {
+                        "display": "2.2",
+                        "value": 2.23943661971831
+                    },
+                    "BLK": {
+                        "display": "0.4",
+                        "value": 0.36619718309859156
+                    },
+                    "DREB": {
+                        "display": "3.3",
+                        "value": 3.267605633802817
+                    },
+                    "FG%": {
+                        "display": "46.8",
+                        "value": 46.78362573099415
+                    },
+                    "FGA": {
+                        "display": "4.8",
+                        "value": 4.816901408450704
+                    },
+                    "FGM": {
+                        "display": "2.3",
+                        "value": 2.2535211267605635
+                    },
+                    "FT%": {
+                        "display": "72.8",
+                        "value": 72.8395061728395
+                    },
+                    "FTA": {
+                        "display": "1.1",
+                        "value": 1.1408450704225352
+                    },
+                    "FTM": {
+                        "display": "0.8",
+                        "value": 0.8309859154929577
+                    },
+                    "GP": {
+                        "display": "71",
+                        "entity": {
+                            "baseResourcePath": "nba/players/7805",
+                            "display": "Nemanja Bjelica",
+                            "domain": "NBA",
+                            "id": "7805",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 71
+                    },
+                    "GS": {
+                        "display": "0",
+                        "value": 0
+                    },
+                    "MIN": {
+                        "display": "16.1",
+                        "value": 16.08450704225352
+                    },
+                    "OREB": {
+                        "display": "0.9",
+                        "value": 0.8732394366197183
+                    },
+                    "PF": {
+                        "display": "1.8",
+                        "value": 1.8028169014084507
+                    },
+                    "PLAYER": {
+                        "display": "Nemanja Bjelica",
+                        "entity": {
+                            "baseResourcePath": "nba/players/7805",
+                            "display": "Nemanja Bjelica",
+                            "domain": "NBA",
+                            "id": "7805",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-nemanja-bjelica-min--mfgmw_0n.png",
+                        "value": "Bjelica, Nemanja"
+                    },
+                    "PTS": {
+                        "display": "6.1",
+                        "value": 6.098591549295775
+                    },
+                    "REB": {
+                        "display": "4.1",
+                        "value": 4.140845070422535
+                    },
+                    "STL": {
+                        "display": "0.6",
+                        "value": 0.5774647887323944
+                    },
+                    "TOV": {
+                        "display": "1.2",
+                        "value": 1.2253521126760563
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "32.2",
+                        "value": 32.18390804597701
+                    },
+                    "3PA": {
+                        "display": "1.2",
+                        "value": 1.1917808219178083
+                    },
+                    "3PM": {
+                        "display": "0.4",
+                        "value": 0.3835616438356164
+                    },
+                    "AST": {
+                        "display": "1.7",
+                        "value": 1.7397260273972603
+                    },
+                    "BLK": {
+                        "display": "0.2",
+                        "value": 0.2328767123287671
+                    },
+                    "DREB": {
+                        "display": "2.0",
+                        "value": 2.0273972602739727
+                    },
+                    "FG%": {
+                        "display": "48.9",
+                        "value": 48.93617021276596
+                    },
+                    "FGA": {
+                        "display": "3.2",
+                        "value": 3.219178082191781
+                    },
+                    "FGM": {
+                        "display": "1.6",
+                        "value": 1.5753424657534247
+                    },
+                    "FT%": {
+                        "display": "57.1",
+                        "value": 57.142857142857146
+                    },
+                    "FTA": {
+                        "display": "1.0",
+                        "value": 0.958904109589041
+                    },
+                    "FTM": {
+                        "display": "0.5",
+                        "value": 0.547945205479452
+                    },
+                    "GP": {
+                        "display": "73",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10115",
+                            "display": "Juan Toscano-Anderson",
+                            "domain": "NBA",
+                            "id": "10115",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 73
+                    },
+                    "GS": {
+                        "display": "6",
+                        "value": 6
+                    },
+                    "MIN": {
+                        "display": "13.6",
+                        "value": 13.616438356164384
+                    },
+                    "OREB": {
+                        "display": "0.4",
+                        "value": 0.3835616438356164
+                    },
+                    "PF": {
+                        "display": "1.6",
+                        "value": 1.5753424657534247
+                    },
+                    "PLAYER": {
+                        "display": "Juan Toscano-Anderson",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10115",
+                            "display": "Juan Toscano-Anderson",
+                            "domain": "NBA",
+                            "id": "10115",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-juan-toscano-anderson-min--szahi2ka.png",
+                        "value": "Toscano-Anderson, Juan"
+                    },
+                    "PTS": {
+                        "display": "4.1",
+                        "value": 4.082191780821918
+                    },
+                    "REB": {
+                        "display": "2.4",
+                        "value": 2.410958904109589
+                    },
+                    "STL": {
+                        "display": "0.7",
+                        "value": 0.6575342465753424
+                    },
+                    "TOV": {
+                        "display": "0.9",
+                        "value": 0.9315068493150684
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "36.4",
+                        "value": 36.36363636363637
+                    },
+                    "3PA": {
+                        "display": "2.1",
+                        "value": 2.1153846153846154
+                    },
+                    "3PM": {
+                        "display": "0.8",
+                        "value": 0.7692307692307693
+                    },
+                    "AST": {
+                        "display": "0.4",
+                        "value": 0.4423076923076923
+                    },
+                    "BLK": {
+                        "display": "0.2",
+                        "value": 0.19230769230769232
+                    },
+                    "DREB": {
+                        "display": "1.2",
+                        "value": 1.2115384615384615
+                    },
+                    "FG%": {
+                        "display": "43.7",
+                        "value": 43.71584699453552
+                    },
+                    "FGA": {
+                        "display": "3.5",
+                        "value": 3.519230769230769
+                    },
+                    "FGM": {
+                        "display": "1.5",
+                        "value": 1.5384615384615385
+                    },
+                    "FT%": {
+                        "display": "77.8",
+                        "value": 77.77777777777777
+                    },
+                    "FTA": {
+                        "display": "0.7",
+                        "value": 0.6923076923076923
+                    },
+                    "FTM": {
+                        "display": "0.5",
+                        "value": 0.5384615384615384
+                    },
+                    "GP": {
+                        "display": "52",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10322",
+                            "display": "Moses Moody",
+                            "domain": "NBA",
+                            "id": "10322",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 52
+                    },
+                    "GS": {
+                        "display": "11",
+                        "value": 11
+                    },
+                    "MIN": {
+                        "display": "11.7",
+                        "value": 11.673076923076923
+                    },
+                    "OREB": {
+                        "display": "0.3",
+                        "value": 0.3269230769230769
+                    },
+                    "PF": {
+                        "display": "0.8",
+                        "value": 0.8269230769230769
+                    },
+                    "PLAYER": {
+                        "display": "Moses Moody",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10322",
+                            "display": "Moses Moody",
+                            "domain": "NBA",
+                            "id": "10322",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-moses-moody-min--vcl9drzc.png",
+                        "value": "Moody, Moses"
+                    },
+                    "PTS": {
+                        "display": "4.4",
+                        "value": 4.384615384615385
+                    },
+                    "REB": {
+                        "display": "1.5",
+                        "value": 1.5384615384615385
+                    },
+                    "STL": {
+                        "display": "0.1",
+                        "value": 0.1346153846153846
+                    },
+                    "TOV": {
+                        "display": "0.3",
+                        "value": 0.25
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "32.1",
+                        "value": 32.075471698113205
+                    },
+                    "3PA": {
+                        "display": "1.6",
+                        "value": 1.5588235294117647
+                    },
+                    "3PM": {
+                        "display": "0.5",
+                        "value": 0.5
+                    },
+                    "AST": {
+                        "display": "1.9",
+                        "value": 1.911764705882353
+                    },
+                    "BLK": {
+                        "display": "0.0",
+                        "value": 0
+                    },
+                    "DREB": {
+                        "display": "0.8",
+                        "value": 0.7941176470588235
+                    },
+                    "FG%": {
+                        "display": "29.6",
+                        "value": 29.62962962962963
+                    },
+                    "FGA": {
+                        "display": "2.4",
+                        "value": 2.3823529411764706
+                    },
+                    "FGM": {
+                        "display": "0.7",
+                        "value": 0.7058823529411765
+                    },
+                    "FT%": {
+                        "display": "66.7",
+                        "value": 66.66666666666667
+                    },
+                    "FTA": {
+                        "display": "0.1",
+                        "value": 0.08823529411764706
+                    },
+                    "FTM": {
+                        "display": "0.1",
+                        "value": 0.058823529411764705
+                    },
+                    "GP": {
+                        "display": "34",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9870",
+                            "display": "Chris Chiozza",
+                            "domain": "NBA",
+                            "id": "9870",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 34
+                    },
+                    "GS": {
+                        "display": "1",
+                        "value": 1
+                    },
+                    "MIN": {
+                        "display": "10.9",
+                        "value": 10.941176470588236
+                    },
+                    "OREB": {
+                        "display": "0.3",
+                        "value": 0.2647058823529412
+                    },
+                    "PF": {
+                        "display": "0.9",
+                        "value": 0.9411764705882353
+                    },
+                    "PLAYER": {
+                        "display": "Chris Chiozza",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9870",
+                            "display": "Chris Chiozza",
+                            "domain": "NBA",
+                            "id": "9870",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/teams/Golden-State-Warriors-Silhouette.png",
+                        "value": "Chiozza, Chris"
+                    },
+                    "PTS": {
+                        "display": "2.0",
+                        "value": 1.9705882352941178
+                    },
+                    "REB": {
+                        "display": "1.1",
+                        "value": 1.0588235294117647
+                    },
+                    "STL": {
+                        "display": "0.4",
+                        "value": 0.38235294117647056
+                    },
+                    "TOV": {
+                        "display": "0.9",
+                        "value": 0.9411764705882353
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "0.0",
+                        "value": 0
+                    },
+                    "3PA": {
+                        "display": "0.3",
+                        "value": 0.25
+                    },
+                    "3PM": {
+                        "display": "0.0",
+                        "value": 0
+                    },
+                    "AST": {
+                        "display": "0.8",
+                        "value": 0.75
+                    },
+                    "BLK": {
+                        "display": "0.3",
+                        "value": 0.25
+                    },
+                    "DREB": {
+                        "display": "1.5",
+                        "value": 1.5
+                    },
+                    "FG%": {
+                        "display": "50.0",
+                        "value": 50
+                    },
+                    "FGA": {
+                        "display": "1.5",
+                        "value": 1.5
+                    },
+                    "FGM": {
+                        "display": "0.8",
+                        "value": 0.75
+                    },
+                    "FT%": {
+                        "display": ""
+                    },
+                    "FTA": {
+                        "display": "0.0",
+                        "value": 0
+                    },
+                    "FTM": {
+                        "display": "0.0",
+                        "value": 0
+                    },
+                    "GP": {
+                        "display": "4",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10374",
+                            "display": "Jeff Dowtin",
+                            "domain": "NBA",
+                            "id": "10374",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 4
+                    },
+                    "GS": {
+                        "display": "0",
+                        "value": 0
+                    },
+                    "MIN": {
+                        "display": "7.0",
+                        "value": 7
+                    },
+                    "OREB": {
+                        "display": "0.3",
+                        "value": 0.25
+                    },
+                    "PF": {
+                        "display": "0.5",
+                        "value": 0.5
+                    },
+                    "PLAYER": {
+                        "display": "Jeff Dowtin",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10374",
+                            "display": "Jeff Dowtin",
+                            "domain": "NBA",
+                            "id": "10374",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/teams/Golden-State-Warriors-Silhouette.png",
+                        "value": "Dowtin, Jeff"
+                    },
+                    "PTS": {
+                        "display": "1.5",
+                        "value": 1.5
+                    },
+                    "REB": {
+                        "display": "1.8",
+                        "value": 1.75
+                    },
+                    "STL": {
+                        "display": "0.0",
+                        "value": 0
+                    },
+                    "TOV": {
+                        "display": "0.3",
+                        "value": 0.25
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "20.0",
+                        "value": 20
+                    },
+                    "3PA": {
+                        "display": "0.5",
+                        "value": 0.45454545454545453
+                    },
+                    "3PM": {
+                        "display": "0.1",
+                        "value": 0.09090909090909091
+                    },
+                    "AST": {
+                        "display": "0.5",
+                        "value": 0.45454545454545453
+                    },
+                    "BLK": {
+                        "display": "0.1",
+                        "value": 0.09090909090909091
+                    },
+                    "DREB": {
+                        "display": "1.1",
+                        "value": 1.0909090909090908
+                    },
+                    "FG%": {
+                        "display": "57.1",
+                        "value": 57.142857142857146
+                    },
+                    "FGA": {
+                        "display": "1.9",
+                        "value": 1.9090909090909092
+                    },
+                    "FGM": {
+                        "display": "1.1",
+                        "value": 1.0909090909090908
+                    },
+                    "FT%": {
+                        "display": "100.0",
+                        "value": 100
+                    },
+                    "FTA": {
+                        "display": "0.5",
+                        "value": 0.45454545454545453
+                    },
+                    "FTM": {
+                        "display": "0.5",
+                        "value": 0.45454545454545453
+                    },
+                    "GP": {
+                        "display": "11",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10023",
+                            "display": "Quinndary Weatherspoon",
+                            "domain": "NBA",
+                            "id": "10023",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 11
+                    },
+                    "GS": {
+                        "display": "0",
+                        "value": 0
+                    },
+                    "MIN": {
+                        "display": "6.6",
+                        "value": 6.636363636363637
+                    },
+                    "OREB": {
+                        "display": "0.2",
+                        "value": 0.18181818181818182
+                    },
+                    "PF": {
+                        "display": "1.4",
+                        "value": 1.3636363636363635
+                    },
+                    "PLAYER": {
+                        "display": "Quinndary Weatherspoon",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10023",
+                            "display": "Quinndary Weatherspoon",
+                            "domain": "NBA",
+                            "id": "10023",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "regularSeason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/teams/Golden-State-Warriors-Silhouette.png",
+                        "value": "Weatherspoon, Quinndary"
+                    },
+                    "PTS": {
+                        "display": "2.7",
+                        "value": 2.727272727272727
+                    },
+                    "REB": {
+                        "display": "1.3",
+                        "value": 1.2727272727272727
+                    },
+                    "STL": {
+                        "display": "0.1",
+                        "value": 0.09090909090909091
+                    },
+                    "TOV": {
+                        "display": "0.3",
+                        "value": 0.2727272727272727
+                    }
+                }
+            ]
+        },
+        "groupId": "Regular Season"
+    },
+    {
+        "grid": {
+            "columns": [
+                {
+                    "rowItemKey": "PLAYER",
+                    "title": "",
+                    "type": "string"
+                },
+                {
+                    "rowItemKey": "GP",
+                    "title": "GP",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "GS",
+                    "title": "GS",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "MIN",
+                    "title": "MIN",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "FGM",
+                    "title": "FGM",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "FGA",
+                    "title": "FGA",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "FG%",
+                    "title": "FG%",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "3PM",
+                    "title": "3PM",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "3PA",
+                    "title": "3PA",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "3P%",
+                    "title": "3P%",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "FTM",
+                    "title": "FTM",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "FTA",
+                    "title": "FTA",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "FT%",
+                    "title": "FT%",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "OREB",
+                    "title": "OREB",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "DREB",
+                    "title": "DREB",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "REB",
+                    "title": "REB",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "AST",
+                    "title": "AST",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "STL",
+                    "title": "STL",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "BLK",
+                    "title": "BLK",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "TOV",
+                    "title": "TOV",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "PF",
+                    "title": "PF",
+                    "type": "number"
+                },
+                {
+                    "rowItemKey": "PTS",
+                    "title": "PTS",
+                    "type": "number"
+                }
+            ],
+            "name": "Playoffs",
+            "rows": [
+                {
+                    "3P%": {
+                        "display": "38.5",
+                        "value": 38.5
+                    },
+                    "3PA": {
+                        "display": "9.1",
+                        "value": 9.090909090909092
+                    },
+                    "3PM": {
+                        "display": "3.5",
+                        "value": 3.5
+                    },
+                    "AST": {
+                        "display": "2.3",
+                        "value": 2.272727272727273
+                    },
+                    "BLK": {
+                        "display": "0.7",
+                        "value": 0.6818181818181818
+                    },
+                    "DREB": {
+                        "display": "3.6",
+                        "value": 3.590909090909091
+                    },
+                    "FG%": {
+                        "display": "42.9",
+                        "value": 42.93478260869565
+                    },
+                    "FGA": {
+                        "display": "16.7",
+                        "value": 16.727272727272727
+                    },
+                    "FGM": {
+                        "display": "7.2",
+                        "value": 7.181818181818182
+                    },
+                    "FT%": {
+                        "display": "86.7",
+                        "value": 86.66666666666667
+                    },
+                    "FTA": {
+                        "display": "1.4",
+                        "value": 1.3636363636363635
+                    },
+                    "FTM": {
+                        "display": "1.2",
+                        "value": 1.1818181818181819
+                    },
+                    "GP": {
+                        "display": "22",
+                        "entity": {
+                            "baseResourcePath": "nba/players/3674",
+                            "display": "Klay Thompson",
+                            "domain": "NBA",
+                            "id": "3674",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 22
+                    },
+                    "GS": {
+                        "display": "22",
+                        "value": 22
+                    },
+                    "MIN": {
+                        "display": "36.0",
+                        "value": 36
+                    },
+                    "OREB": {
+                        "display": "0.3",
+                        "value": 0.3181818181818182
+                    },
+                    "PF": {
+                        "display": "2.1",
+                        "value": 2.1363636363636362
+                    },
+                    "PLAYER": {
+                        "display": "Klay Thompson",
+                        "entity": {
+                            "baseResourcePath": "nba/players/3674",
+                            "display": "Klay Thompson",
+                            "domain": "NBA",
+                            "id": "3674",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-klay-thompson2021-min--dkefsyua.png",
+                        "value": "Thompson, Klay"
+                    },
+                    "PTS": {
+                        "display": "19.0",
+                        "value": 19.045454545454547
+                    },
+                    "REB": {
+                        "display": "3.9",
+                        "value": 3.909090909090909
+                    },
+                    "STL": {
+                        "display": "1.1",
+                        "value": 1.0909090909090908
+                    },
+                    "TOV": {
+                        "display": "1.3",
+                        "value": 1.2727272727272727
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "33.3",
+                        "value": 33.333333333333336
+                    },
+                    "3PA": {
+                        "display": "4.8",
+                        "value": 4.7727272727272725
+                    },
+                    "3PM": {
+                        "display": "1.6",
+                        "value": 1.5909090909090908
+                    },
+                    "AST": {
+                        "display": "1.8",
+                        "value": 1.8181818181818181
+                    },
+                    "BLK": {
+                        "display": "1.0",
+                        "value": 1.0454545454545454
+                    },
+                    "DREB": {
+                        "display": "5.0",
+                        "value": 5.045454545454546
+                    },
+                    "FG%": {
+                        "display": "46.9",
+                        "value": 46.885245901639344
+                    },
+                    "FGA": {
+                        "display": "13.9",
+                        "value": 13.863636363636363
+                    },
+                    "FGM": {
+                        "display": "6.5",
+                        "value": 6.5
+                    },
+                    "FT%": {
+                        "display": "64.6",
+                        "value": 64.61538461538461
+                    },
+                    "FTA": {
+                        "display": "3.0",
+                        "value": 2.9545454545454546
+                    },
+                    "FTM": {
+                        "display": "1.9",
+                        "value": 1.9090909090909092
+                    },
+                    "GP": {
+                        "display": "22",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9186",
+                            "display": "Andrew Wiggins",
+                            "domain": "NBA",
+                            "id": "9186",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 22
+                    },
+                    "GS": {
+                        "display": "22",
+                        "value": 22
+                    },
+                    "MIN": {
+                        "display": "34.9",
+                        "value": 34.86363636363637
+                    },
+                    "OREB": {
+                        "display": "2.5",
+                        "value": 2.4545454545454546
+                    },
+                    "PF": {
+                        "display": "2.5",
+                        "value": 2.4545454545454546
+                    },
+                    "PLAYER": {
+                        "display": "Andrew Wiggins",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9186",
+                            "display": "Andrew Wiggins",
+                            "domain": "NBA",
+                            "id": "9186",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-andrew-wiggins2022-min--uthxuclk.png",
+                        "value": "Wiggins, Andrew"
+                    },
+                    "PTS": {
+                        "display": "16.5",
+                        "value": 16.5
+                    },
+                    "REB": {
+                        "display": "7.5",
+                        "value": 7.5
+                    },
+                    "STL": {
+                        "display": "1.0",
+                        "value": 1
+                    },
+                    "TOV": {
+                        "display": "1.4",
+                        "value": 1.3636363636363635
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "39.7",
+                        "value": 39.737991266375545
+                    },
+                    "3PA": {
+                        "display": "10.4",
+                        "value": 10.409090909090908
+                    },
+                    "3PM": {
+                        "display": "4.1",
+                        "value": 4.136363636363637
+                    },
+                    "AST": {
+                        "display": "5.9",
+                        "value": 5.863636363636363
+                    },
+                    "BLK": {
+                        "display": "0.4",
+                        "value": 0.36363636363636365
+                    },
+                    "DREB": {
+                        "display": "4.7",
+                        "value": 4.7272727272727275
+                    },
+                    "FG%": {
+                        "display": "45.9",
+                        "value": 45.90909090909091
+                    },
+                    "FGA": {
+                        "display": "20.0",
+                        "value": 20
+                    },
+                    "FGM": {
+                        "display": "9.2",
+                        "value": 9.181818181818182
+                    },
+                    "FT%": {
+                        "display": "82.9",
+                        "value": 82.94573643410853
+                    },
+                    "FTA": {
+                        "display": "5.9",
+                        "value": 5.863636363636363
+                    },
+                    "FTM": {
+                        "display": "4.9",
+                        "value": 4.863636363636363
+                    },
+                    "GP": {
+                        "display": "22",
+                        "entity": {
+                            "baseResourcePath": "nba/players/787",
+                            "display": "Stephen Curry",
+                            "domain": "NBA",
+                            "id": "787",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 22
+                    },
+                    "GS": {
+                        "display": "18",
+                        "value": 18
+                    },
+                    "MIN": {
+                        "display": "34.7",
+                        "value": 34.72727272727273
+                    },
+                    "OREB": {
+                        "display": "0.5",
+                        "value": 0.5
+                    },
+                    "PF": {
+                        "display": "2.7",
+                        "value": 2.6818181818181817
+                    },
+                    "PLAYER": {
+                        "display": "Stephen Curry",
+                        "entity": {
+                            "baseResourcePath": "nba/players/787",
+                            "display": "Stephen Curry",
+                            "domain": "NBA",
+                            "id": "787",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-stephen-curry2021-min-1---hw2hav_b.png",
+                        "value": "Curry, Stephen"
+                    },
+                    "PTS": {
+                        "display": "27.4",
+                        "value": 27.363636363636363
+                    },
+                    "REB": {
+                        "display": "5.2",
+                        "value": 5.2272727272727275
+                    },
+                    "STL": {
+                        "display": "1.3",
+                        "value": 1.3181818181818181
+                    },
+                    "TOV": {
+                        "display": "2.6",
+                        "value": 2.590909090909091
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "20.5",
+                        "value": 20.512820512820515
+                    },
+                    "3PA": {
+                        "display": "1.8",
+                        "value": 1.7727272727272727
+                    },
+                    "3PM": {
+                        "display": "0.4",
+                        "value": 0.36363636363636365
+                    },
+                    "AST": {
+                        "display": "6.3",
+                        "value": 6.2727272727272725
+                    },
+                    "BLK": {
+                        "display": "1.0",
+                        "value": 1
+                    },
+                    "DREB": {
+                        "display": "6.0",
+                        "value": 6.045454545454546
+                    },
+                    "FG%": {
+                        "display": "47.9",
+                        "value": 47.916666666666664
+                    },
+                    "FGA": {
+                        "display": "6.5",
+                        "value": 6.545454545454546
+                    },
+                    "FGM": {
+                        "display": "3.1",
+                        "value": 3.1363636363636362
+                    },
+                    "FT%": {
+                        "display": "63.8",
+                        "value": 63.829787234042556
+                    },
+                    "FTA": {
+                        "display": "2.1",
+                        "value": 2.1363636363636362
+                    },
+                    "FTM": {
+                        "display": "1.4",
+                        "value": 1.3636363636363635
+                    },
+                    "GP": {
+                        "display": "22",
+                        "entity": {
+                            "baseResourcePath": "nba/players/1374",
+                            "display": "Draymond Green",
+                            "domain": "NBA",
+                            "id": "1374",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 22
+                    },
+                    "GS": {
+                        "display": "22",
+                        "value": 22
+                    },
+                    "MIN": {
+                        "display": "32.0",
+                        "value": 31.954545454545453
+                    },
+                    "OREB": {
+                        "display": "1.2",
+                        "value": 1.1818181818181819
+                    },
+                    "PF": {
+                        "display": "4.0",
+                        "value": 3.9545454545454546
+                    },
+                    "PLAYER": {
+                        "display": "Draymond Green",
+                        "entity": {
+                            "baseResourcePath": "nba/players/1374",
+                            "display": "Draymond Green",
+                            "domain": "NBA",
+                            "id": "1374",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-draymond-green2018-min--ml0c-oct.png",
+                        "value": "Green, Draymond"
+                    },
+                    "PTS": {
+                        "display": "8.0",
+                        "value": 8
+                    },
+                    "REB": {
+                        "display": "7.2",
+                        "value": 7.2272727272727275
+                    },
+                    "STL": {
+                        "display": "1.1",
+                        "value": 1.1363636363636365
+                    },
+                    "TOV": {
+                        "display": "2.7",
+                        "value": 2.6818181818181817
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "39.1",
+                        "value": 39.0625
+                    },
+                    "3PA": {
+                        "display": "5.8",
+                        "value": 5.818181818181818
+                    },
+                    "3PM": {
+                        "display": "2.3",
+                        "value": 2.272727272727273
+                    },
+                    "AST": {
+                        "display": "3.8",
+                        "value": 3.772727272727273
+                    },
+                    "BLK": {
+                        "display": "0.4",
+                        "value": 0.36363636363636365
+                    },
+                    "DREB": {
+                        "display": "2.4",
+                        "value": 2.3636363636363638
+                    },
+                    "FG%": {
+                        "display": "50.8",
+                        "value": 50.78740157480315
+                    },
+                    "FGA": {
+                        "display": "11.5",
+                        "value": 11.545454545454545
+                    },
+                    "FGM": {
+                        "display": "5.9",
+                        "value": 5.863636363636363
+                    },
+                    "FT%": {
+                        "display": "91.5",
+                        "value": 91.54929577464789
+                    },
+                    "FTA": {
+                        "display": "3.2",
+                        "value": 3.227272727272727
+                    },
+                    "FTM": {
+                        "display": "3.0",
+                        "value": 2.9545454545454546
+                    },
+                    "GP": {
+                        "display": "22",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10002",
+                            "display": "Jordan Poole",
+                            "domain": "NBA",
+                            "id": "10002",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 22
+                    },
+                    "GS": {
+                        "display": "5",
+                        "value": 5
+                    },
+                    "MIN": {
+                        "display": "27.5",
+                        "value": 27.545454545454547
+                    },
+                    "OREB": {
+                        "display": "0.5",
+                        "value": 0.45454545454545453
+                    },
+                    "PF": {
+                        "display": "2.8",
+                        "value": 2.8181818181818183
+                    },
+                    "PLAYER": {
+                        "display": "Jordan Poole",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10002",
+                            "display": "Jordan Poole",
+                            "domain": "NBA",
+                            "id": "10002",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriiors-jordan-poole2022-min--wgxgp7ed.png",
+                        "value": "Poole, Jordan"
+                    },
+                    "PTS": {
+                        "display": "17.0",
+                        "value": 16.954545454545453
+                    },
+                    "REB": {
+                        "display": "2.8",
+                        "value": 2.8181818181818183
+                    },
+                    "STL": {
+                        "display": "0.8",
+                        "value": 0.7727272727272727
+                    },
+                    "TOV": {
+                        "display": "2.4",
+                        "value": 2.409090909090909
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": ""
+                    },
+                    "3PA": {
+                        "display": "0.0",
+                        "value": 0
+                    },
+                    "3PM": {
+                        "display": "0.0",
+                        "value": 0
+                    },
+                    "AST": {
+                        "display": "2.2",
+                        "value": 2.1818181818181817
+                    },
+                    "BLK": {
+                        "display": "0.5",
+                        "value": 0.45454545454545453
+                    },
+                    "DREB": {
+                        "display": "4.8",
+                        "value": 4.7727272727272725
+                    },
+                    "FG%": {
+                        "display": "65.9",
+                        "value": 65.9090909090909
+                    },
+                    "FGA": {
+                        "display": "4.0",
+                        "value": 4
+                    },
+                    "FGM": {
+                        "display": "2.6",
+                        "value": 2.6363636363636362
+                    },
+                    "FT%": {
+                        "display": "61.1",
+                        "value": 61.111111111111114
+                    },
+                    "FTA": {
+                        "display": "0.8",
+                        "value": 0.8181818181818182
+                    },
+                    "FTM": {
+                        "display": "0.5",
+                        "value": 0.5
+                    },
+                    "GP": {
+                        "display": "22",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9318",
+                            "display": "Kevon Looney",
+                            "domain": "NBA",
+                            "id": "9318",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 22
+                    },
+                    "GS": {
+                        "display": "13",
+                        "value": 13
+                    },
+                    "MIN": {
+                        "display": "20.4",
+                        "value": 20.363636363636363
+                    },
+                    "OREB": {
+                        "display": "2.9",
+                        "value": 2.8636363636363638
+                    },
+                    "PF": {
+                        "display": "2.3",
+                        "value": 2.272727272727273
+                    },
+                    "PLAYER": {
+                        "display": "Kevon Looney",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9318",
+                            "display": "Kevon Looney",
+                            "domain": "NBA",
+                            "id": "9318",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-kevon-looney2022-min--b__1bp6s.png",
+                        "value": "Looney, Kevon"
+                    },
+                    "PTS": {
+                        "display": "5.8",
+                        "value": 5.7727272727272725
+                    },
+                    "REB": {
+                        "display": "7.6",
+                        "value": 7.636363636363637
+                    },
+                    "STL": {
+                        "display": "0.4",
+                        "value": 0.4090909090909091
+                    },
+                    "TOV": {
+                        "display": "0.9",
+                        "value": 0.8636363636363636
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "40.4",
+                        "value": 40.42553191489362
+                    },
+                    "3PA": {
+                        "display": "2.5",
+                        "value": 2.473684210526316
+                    },
+                    "3PM": {
+                        "display": "1.0",
+                        "value": 1
+                    },
+                    "AST": {
+                        "display": "1.8",
+                        "value": 1.7894736842105263
+                    },
+                    "BLK": {
+                        "display": "0.3",
+                        "value": 0.3157894736842105
+                    },
+                    "DREB": {
+                        "display": "2.8",
+                        "value": 2.789473684210526
+                    },
+                    "FG%": {
+                        "display": "49.4",
+                        "value": 49.35064935064935
+                    },
+                    "FGA": {
+                        "display": "4.1",
+                        "value": 4.052631578947368
+                    },
+                    "FGM": {
+                        "display": "2.0",
+                        "value": 2
+                    },
+                    "FT%": {
+                        "display": "77.8",
+                        "value": 77.77777777777777
+                    },
+                    "FTA": {
+                        "display": "0.5",
+                        "value": 0.47368421052631576
+                    },
+                    "FTM": {
+                        "display": "0.4",
+                        "value": 0.3684210526315789
+                    },
+                    "GP": {
+                        "display": "19",
+                        "entity": {
+                            "baseResourcePath": "nba/players/2954",
+                            "display": "Otto Porter Jr.",
+                            "domain": "NBA",
+                            "id": "2954",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 19
+                    },
+                    "GS": {
+                        "display": "3",
+                        "value": 3
+                    },
+                    "MIN": {
+                        "display": "19.5",
+                        "value": 19.526315789473685
+                    },
+                    "OREB": {
+                        "display": "0.6",
+                        "value": 0.631578947368421
+                    },
+                    "PF": {
+                        "display": "1.8",
+                        "value": 1.7894736842105263
+                    },
+                    "PLAYER": {
+                        "display": "Otto Porter Jr.",
+                        "entity": {
+                            "baseResourcePath": "nba/players/2954",
+                            "display": "Otto Porter Jr.",
+                            "domain": "NBA",
+                            "id": "2954",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-otto-porter-jr2021-min--ovv9rayq.png",
+                        "value": "Porter, Otto"
+                    },
+                    "PTS": {
+                        "display": "5.4",
+                        "value": 5.368421052631579
+                    },
+                    "REB": {
+                        "display": "3.4",
+                        "value": 3.4210526315789473
+                    },
+                    "STL": {
+                        "display": "0.9",
+                        "value": 0.8947368421052632
+                    },
+                    "TOV": {
+                        "display": "0.6",
+                        "value": 0.631578947368421
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "53.3",
+                        "value": 53.333333333333336
+                    },
+                    "3PA": {
+                        "display": "1.3",
+                        "value": 1.25
+                    },
+                    "3PM": {
+                        "display": "0.7",
+                        "value": 0.6666666666666666
+                    },
+                    "AST": {
+                        "display": "1.3",
+                        "value": 1.3333333333333333
+                    },
+                    "BLK": {
+                        "display": "0.6",
+                        "value": 0.5833333333333334
+                    },
+                    "DREB": {
+                        "display": "2.0",
+                        "value": 2
+                    },
+                    "FG%": {
+                        "display": "65.9",
+                        "value": 65.9090909090909
+                    },
+                    "FGA": {
+                        "display": "3.7",
+                        "value": 3.6666666666666665
+                    },
+                    "FGM": {
+                        "display": "2.4",
+                        "value": 2.4166666666666665
+                    },
+                    "FT%": {
+                        "display": "66.7",
+                        "value": 66.66666666666667
+                    },
+                    "FTA": {
+                        "display": "1.5",
+                        "value": 1.5
+                    },
+                    "FTM": {
+                        "display": "1.0",
+                        "value": 1
+                    },
+                    "GP": {
+                        "display": "12",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9532",
+                            "display": "Gary Payton II",
+                            "domain": "NBA",
+                            "id": "9532",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 12
+                    },
+                    "GS": {
+                        "display": "2",
+                        "value": 2
+                    },
+                    "MIN": {
+                        "display": "16.9",
+                        "value": 16.916666666666668
+                    },
+                    "OREB": {
+                        "display": "1.1",
+                        "value": 1.0833333333333333
+                    },
+                    "PF": {
+                        "display": "1.9",
+                        "value": 1.9166666666666667
+                    },
+                    "PLAYER": {
+                        "display": "Gary Payton II",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9532",
+                            "display": "Gary Payton II",
+                            "domain": "NBA",
+                            "id": "9532",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-gary-payton-ii-min--rqwcnv10.png",
+                        "value": "Payton, Gary"
+                    },
+                    "PTS": {
+                        "display": "6.5",
+                        "value": 6.5
+                    },
+                    "REB": {
+                        "display": "3.1",
+                        "value": 3.0833333333333335
+                    },
+                    "STL": {
+                        "display": "1.2",
+                        "value": 1.1666666666666667
+                    },
+                    "TOV": {
+                        "display": "0.5",
+                        "value": 0.5
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "37.5",
+                        "value": 37.5
+                    },
+                    "3PA": {
+                        "display": "0.5",
+                        "value": 0.5333333333333333
+                    },
+                    "3PM": {
+                        "display": "0.2",
+                        "value": 0.2
+                    },
+                    "AST": {
+                        "display": "1.1",
+                        "value": 1.1333333333333333
+                    },
+                    "BLK": {
+                        "display": "0.1",
+                        "value": 0.13333333333333333
+                    },
+                    "DREB": {
+                        "display": "1.7",
+                        "value": 1.6666666666666667
+                    },
+                    "FG%": {
+                        "display": "52.9",
+                        "value": 52.94117647058823
+                    },
+                    "FGA": {
+                        "display": "2.3",
+                        "value": 2.2666666666666666
+                    },
+                    "FGM": {
+                        "display": "1.2",
+                        "value": 1.2
+                    },
+                    "FT%": {
+                        "display": "57.1",
+                        "value": 57.142857142857146
+                    },
+                    "FTA": {
+                        "display": "0.5",
+                        "value": 0.4666666666666667
+                    },
+                    "FTM": {
+                        "display": "0.3",
+                        "value": 0.26666666666666666
+                    },
+                    "GP": {
+                        "display": "15",
+                        "entity": {
+                            "baseResourcePath": "nba/players/7805",
+                            "display": "Nemanja Bjelica",
+                            "domain": "NBA",
+                            "id": "7805",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 15
+                    },
+                    "GS": {
+                        "display": "0",
+                        "value": 0
+                    },
+                    "MIN": {
+                        "display": "10.0",
+                        "value": 10
+                    },
+                    "OREB": {
+                        "display": "0.4",
+                        "value": 0.4
+                    },
+                    "PF": {
+                        "display": "1.4",
+                        "value": 1.4
+                    },
+                    "PLAYER": {
+                        "display": "Nemanja Bjelica",
+                        "entity": {
+                            "baseResourcePath": "nba/players/7805",
+                            "display": "Nemanja Bjelica",
+                            "domain": "NBA",
+                            "id": "7805",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-nemanja-bjelica-min--mfgmw_0n.png",
+                        "value": "Bjelica, Nemanja"
+                    },
+                    "PTS": {
+                        "display": "2.9",
+                        "value": 2.8666666666666667
+                    },
+                    "REB": {
+                        "display": "2.1",
+                        "value": 2.066666666666667
+                    },
+                    "STL": {
+                        "display": "0.3",
+                        "value": 0.26666666666666666
+                    },
+                    "TOV": {
+                        "display": "0.5",
+                        "value": 0.4666666666666667
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "33.3",
+                        "value": 33.333333333333336
+                    },
+                    "3PA": {
+                        "display": "0.4",
+                        "value": 0.42857142857142855
+                    },
+                    "3PM": {
+                        "display": "0.1",
+                        "value": 0.14285714285714285
+                    },
+                    "AST": {
+                        "display": "1.7",
+                        "value": 1.7142857142857142
+                    },
+                    "BLK": {
+                        "display": "0.3",
+                        "value": 0.2857142857142857
+                    },
+                    "DREB": {
+                        "display": "0.6",
+                        "value": 0.5714285714285714
+                    },
+                    "FG%": {
+                        "display": "44.4",
+                        "value": 44.44444444444444
+                    },
+                    "FGA": {
+                        "display": "1.3",
+                        "value": 1.2857142857142858
+                    },
+                    "FGM": {
+                        "display": "0.6",
+                        "value": 0.5714285714285714
+                    },
+                    "FT%": {
+                        "display": "66.7",
+                        "value": 66.66666666666667
+                    },
+                    "FTA": {
+                        "display": "0.4",
+                        "value": 0.42857142857142855
+                    },
+                    "FTM": {
+                        "display": "0.3",
+                        "value": 0.2857142857142857
+                    },
+                    "GP": {
+                        "display": "7",
+                        "entity": {
+                            "baseResourcePath": "nba/players/1724",
+                            "display": "Andre Iguodala",
+                            "domain": "NBA",
+                            "id": "1724",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 7
+                    },
+                    "GS": {
+                        "display": "0",
+                        "value": 0
+                    },
+                    "MIN": {
+                        "display": "8.7",
+                        "value": 8.714285714285714
+                    },
+                    "OREB": {
+                        "display": "0.4",
+                        "value": 0.42857142857142855
+                    },
+                    "PF": {
+                        "display": "1.6",
+                        "value": 1.5714285714285714
+                    },
+                    "PLAYER": {
+                        "display": "Andre Iguodala",
+                        "entity": {
+                            "baseResourcePath": "nba/players/1724",
+                            "display": "Andre Iguodala",
+                            "domain": "NBA",
+                            "id": "1724",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-andre-iguodala-min--zvxyhnph.png",
+                        "value": "Iguodala, Andre"
+                    },
+                    "PTS": {
+                        "display": "1.6",
+                        "value": 1.5714285714285714
+                    },
+                    "REB": {
+                        "display": "1.0",
+                        "value": 1
+                    },
+                    "STL": {
+                        "display": "0.0",
+                        "value": 0
+                    },
+                    "TOV": {
+                        "display": "0.6",
+                        "value": 0.5714285714285714
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "23.1",
+                        "value": 23.076923076923077
+                    },
+                    "3PA": {
+                        "display": "0.8",
+                        "value": 0.8125
+                    },
+                    "3PM": {
+                        "display": "0.2",
+                        "value": 0.1875
+                    },
+                    "AST": {
+                        "display": "0.5",
+                        "value": 0.5
+                    },
+                    "BLK": {
+                        "display": "0.1",
+                        "value": 0.125
+                    },
+                    "DREB": {
+                        "display": "1.4",
+                        "value": 1.4375
+                    },
+                    "FG%": {
+                        "display": "50.0",
+                        "value": 50
+                    },
+                    "FGA": {
+                        "display": "3.8",
+                        "value": 3.75
+                    },
+                    "FGM": {
+                        "display": "1.9",
+                        "value": 1.875
+                    },
+                    "FT%": {
+                        "display": "76.9",
+                        "value": 76.92307692307692
+                    },
+                    "FTA": {
+                        "display": "1.6",
+                        "value": 1.625
+                    },
+                    "FTM": {
+                        "display": "1.3",
+                        "value": 1.25
+                    },
+                    "GP": {
+                        "display": "16",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10324",
+                            "display": "Jonathan Kuminga",
+                            "domain": "NBA",
+                            "id": "10324",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 16
+                    },
+                    "GS": {
+                        "display": "3",
+                        "value": 3
+                    },
+                    "MIN": {
+                        "display": "8.6",
+                        "value": 8.625
+                    },
+                    "OREB": {
+                        "display": "0.3",
+                        "value": 0.25
+                    },
+                    "PF": {
+                        "display": "0.7",
+                        "value": 0.6875
+                    },
+                    "PLAYER": {
+                        "display": "Jonathan Kuminga",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10324",
+                            "display": "Jonathan Kuminga",
+                            "domain": "NBA",
+                            "id": "10324",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-jonathan-kuminga-min--fje8jwjx.png",
+                        "value": "Kuminga, Jonathan"
+                    },
+                    "PTS": {
+                        "display": "5.2",
+                        "value": 5.1875
+                    },
+                    "REB": {
+                        "display": "1.7",
+                        "value": 1.6875
+                    },
+                    "STL": {
+                        "display": "0.2",
+                        "value": 0.1875
+                    },
+                    "TOV": {
+                        "display": "0.7",
+                        "value": 0.6875
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "53.8",
+                        "value": 53.84615384615385
+                    },
+                    "3PA": {
+                        "display": "1.0",
+                        "value": 1
+                    },
+                    "3PM": {
+                        "display": "0.5",
+                        "value": 0.5384615384615384
+                    },
+                    "AST": {
+                        "display": "0.3",
+                        "value": 0.3076923076923077
+                    },
+                    "BLK": {
+                        "display": "0.2",
+                        "value": 0.23076923076923078
+                    },
+                    "DREB": {
+                        "display": "0.5",
+                        "value": 0.46153846153846156
+                    },
+                    "FG%": {
+                        "display": "53.6",
+                        "value": 53.57142857142857
+                    },
+                    "FGA": {
+                        "display": "2.2",
+                        "value": 2.1538461538461537
+                    },
+                    "FGM": {
+                        "display": "1.2",
+                        "value": 1.1538461538461537
+                    },
+                    "FT%": {
+                        "display": "66.7",
+                        "value": 66.66666666666667
+                    },
+                    "FTA": {
+                        "display": "0.5",
+                        "value": 0.46153846153846156
+                    },
+                    "FTM": {
+                        "display": "0.3",
+                        "value": 0.3076923076923077
+                    },
+                    "GP": {
+                        "display": "13",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10322",
+                            "display": "Moses Moody",
+                            "domain": "NBA",
+                            "id": "10322",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 13
+                    },
+                    "GS": {
+                        "display": "0",
+                        "value": 0
+                    },
+                    "MIN": {
+                        "display": "8.1",
+                        "value": 8.076923076923077
+                    },
+                    "OREB": {
+                        "display": "0.2",
+                        "value": 0.15384615384615385
+                    },
+                    "PF": {
+                        "display": "0.3",
+                        "value": 0.3076923076923077
+                    },
+                    "PLAYER": {
+                        "display": "Moses Moody",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10322",
+                            "display": "Moses Moody",
+                            "domain": "NBA",
+                            "id": "10322",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-moses-moody-min--vcl9drzc.png",
+                        "value": "Moody, Moses"
+                    },
+                    "PTS": {
+                        "display": "3.2",
+                        "value": 3.1538461538461537
+                    },
+                    "REB": {
+                        "display": "0.6",
+                        "value": 0.6153846153846154
+                    },
+                    "STL": {
+                        "display": "0.2",
+                        "value": 0.23076923076923078
+                    },
+                    "TOV": {
+                        "display": "0.2",
+                        "value": 0.23076923076923078
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "25.0",
+                        "value": 25
+                    },
+                    "3PA": {
+                        "display": "1.0",
+                        "value": 1
+                    },
+                    "3PM": {
+                        "display": "0.3",
+                        "value": 0.25
+                    },
+                    "AST": {
+                        "display": "0.4",
+                        "value": 0.4375
+                    },
+                    "BLK": {
+                        "display": "0.0",
+                        "value": 0
+                    },
+                    "DREB": {
+                        "display": "1.3",
+                        "value": 1.3125
+                    },
+                    "FG%": {
+                        "display": "38.2",
+                        "value": 38.23529411764706
+                    },
+                    "FGA": {
+                        "display": "2.1",
+                        "value": 2.125
+                    },
+                    "FGM": {
+                        "display": "0.8",
+                        "value": 0.8125
+                    },
+                    "FT%": {
+                        "display": "66.7",
+                        "value": 66.66666666666667
+                    },
+                    "FTA": {
+                        "display": "0.2",
+                        "value": 0.1875
+                    },
+                    "FTM": {
+                        "display": "0.1",
+                        "value": 0.125
+                    },
+                    "GP": {
+                        "display": "16",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9538",
+                            "display": "Damion Lee",
+                            "domain": "NBA",
+                            "id": "9538",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 16
+                    },
+                    "GS": {
+                        "display": "0",
+                        "value": 0
+                    },
+                    "MIN": {
+                        "display": "7.8",
+                        "value": 7.75
+                    },
+                    "OREB": {
+                        "display": "0.3",
+                        "value": 0.3125
+                    },
+                    "PF": {
+                        "display": "0.5",
+                        "value": 0.5
+                    },
+                    "PLAYER": {
+                        "display": "Damion Lee",
+                        "entity": {
+                            "baseResourcePath": "nba/players/9538",
+                            "display": "Damion Lee",
+                            "domain": "NBA",
+                            "id": "9538",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/teams/Golden-State-Warriors-Silhouette.png",
+                        "value": "Lee, Damion"
+                    },
+                    "PTS": {
+                        "display": "2.0",
+                        "value": 2
+                    },
+                    "REB": {
+                        "display": "1.6",
+                        "value": 1.625
+                    },
+                    "STL": {
+                        "display": "0.1",
+                        "value": 0.0625
+                    },
+                    "TOV": {
+                        "display": "0.4",
+                        "value": 0.375
+                    }
+                },
+                {
+                    "3P%": {
+                        "display": "40.0",
+                        "value": 40
+                    },
+                    "3PA": {
+                        "display": "0.4",
+                        "value": 0.35714285714285715
+                    },
+                    "3PM": {
+                        "display": "0.1",
+                        "value": 0.14285714285714285
+                    },
+                    "AST": {
+                        "display": "0.6",
+                        "value": 0.5714285714285714
+                    },
+                    "BLK": {
+                        "display": "0.1",
+                        "value": 0.07142857142857142
+                    },
+                    "DREB": {
+                        "display": "0.7",
+                        "value": 0.7142857142857143
+                    },
+                    "FG%": {
+                        "display": "40.0",
+                        "value": 40
+                    },
+                    "FGA": {
+                        "display": "0.7",
+                        "value": 0.7142857142857143
+                    },
+                    "FGM": {
+                        "display": "0.3",
+                        "value": 0.2857142857142857
+                    },
+                    "FT%": {
+                        "display": "33.3",
+                        "value": 33.333333333333336
+                    },
+                    "FTA": {
+                        "display": "0.2",
+                        "value": 0.21428571428571427
+                    },
+                    "FTM": {
+                        "display": "0.1",
+                        "value": 0.07142857142857142
+                    },
+                    "GP": {
+                        "display": "14",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10115",
+                            "display": "Juan Toscano-Anderson",
+                            "domain": "NBA",
+                            "id": "10115",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason",
+                                "seasonYear": 2022
+                            },
+                            "type": "player"
+                        },
+                        "value": 14
+                    },
+                    "GS": {
+                        "display": "0",
+                        "value": 0
+                    },
+                    "MIN": {
+                        "display": "3.5",
+                        "value": 3.5
+                    },
+                    "OREB": {
+                        "display": "0.0",
+                        "value": 0
+                    },
+                    "PF": {
+                        "display": "0.2",
+                        "value": 0.21428571428571427
+                    },
+                    "PLAYER": {
+                        "display": "Juan Toscano-Anderson",
+                        "entity": {
+                            "baseResourcePath": "nba/players/10115",
+                            "display": "Juan Toscano-Anderson",
+                            "domain": "NBA",
+                            "id": "10115",
+                            "parameters": {
+                                "playerStatsBreakdown": "perGame",
+                                "seasonType": "postseason"
+                            },
+                            "type": "player"
+                        },
+                        "imageUrl": "https://cdn.statmuse.com/img/nba/players/golden-state-warriors-juan-toscano-anderson-min--szahi2ka.png",
+                        "value": "Toscano-Anderson, Juan"
+                    },
+                    "PTS": {
+                        "display": "0.8",
+                        "value": 0.7857142857142857
+                    },
+                    "REB": {
+                        "display": "0.7",
+                        "value": 0.7142857142857143
+                    },
+                    "STL": {
+                        "display": "0.1",
+                        "value": 0.14285714285714285
+                    },
+                    "TOV": {
+                        "display": "0.6",
+                        "value": 0.5714285714285714
+                    }
+                }
+            ]
+        },
+        "groupId": "Playoffs"
+    }
+]}
