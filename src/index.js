@@ -1,4 +1,5 @@
 import BubbleChart from "./scripts/bubbleChart";
+import * as checkers from "./scripts/checker";
 
 document.addEventListener('DOMContentLoaded', () => {
     // renders initial chart
@@ -14,19 +15,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // sets event listeners to render a new chart when each selector is changed
     teamSelect.addEventListener('change', () => {
+        modeSelect[0].selected = true;
+        checkers.setYearOptionsForTeam(teamSelect.value);
         chart = new BubbleChart();
     });
     modeSelect.addEventListener('change', () => {
-        chart = new BubbleChart();
+        checkers.setStatOptionsForMode(modeSelect.value);
+        chart.changeMode(modeSelect.value);
     });
     yearSelect.addEventListener('change', () => {
+        modeSelect[0].selected = true;
+        checkers.setStatOptionsForYear(yearSelect.value);
         chart = new BubbleChart();
     });
     statSelect.addEventListener('change', () => {
-        chart.render();
+        chart.redraw();
     });
     minGamesSelect.addEventListener('change', () => {
-        chart.render();
+        chart.redraw();
     });
     minGamesSelect.addEventListener('input', () => {
         document.getElementById('range-value').innerHTML = minGamesSelect.value;
