@@ -38,10 +38,11 @@ const colors = {
 class BubbleChart {
     constructor() {
         this.width = window.innerWidth;
-        this.height = window.innerHeight;
+        this.height = window.innerHeight * 0.9;
         this.teamId = document.getElementById('team-select').value;
         this.stat = document.getElementById('stat-select').value;
         this.color = colors[this.teamId];
+        this.mode = 'perGame';
 
         //fetches data and then renders the chart
         loadData(this.teamId).then(data => {
@@ -67,18 +68,12 @@ class BubbleChart {
         const max = Math.max(...gamesPlayedArray)
         const minGamesRange = document.getElementById('min-games-range');
         minGamesRange.max = max;
-        if (document.getElementById('mode-select').value === 'totals') {
-            minGamesRange.value = 1;
-            document.getElementById('range-value').innerHTML = 1;
-        } else {
-            minGamesRange.value = 29;
-            document.getElementById('range-value').innerHTML = 29;
-        }
+        minGamesRange.value = 29;
+        document.getElementById('range-value').innerHTML = 29;
     }
 
-    generate(data) {
+    generate() {
         const that = this;
-        data ||= this.data;
 
         // get values from selectors
         this.stat = document.getElementById('stat-select').value;
@@ -87,13 +82,13 @@ class BubbleChart {
         if (this.playoffs && document.getElementById('playoffs-select').value) {
             minGames = 1;
             dataIndex = 1;
-            document.getElementById('min-games-div').classList.add('display-none');
-        } else document.getElementById('min-games-div').classList.remove('display-none');
+            document.getElementById('min-games-div').classList.add('hidden');
+        } else document.getElementById('min-games-div').classList.remove('hidden');
 
         // returns array of nodes with layout info for each data point
         return d3.pack()
             .size([that.width, that.height])
-            .padding(5)(d3.hierarchy({ children: data[dataIndex] }).sum(d => {
+            .padding(5)(d3.hierarchy({ children: this.data[dataIndex] }).sum(d => {
                 if (d[that.stat] && d.GP.value >= minGames) return d[that.stat].value;
             }))
             .children;
@@ -109,21 +104,21 @@ class BubbleChart {
             .style('height', that.height);
     
         // clear any elements inside the svg
-        svg.selectAll('*').transition().duration(400).style('opacity', 0).remove();
+        svg.selectAll('*').transition().duration(600).style('opacity', 0).remove();
     
         // populate svg with group elements
-        const groups = svg.selectAll()
+        this.groups = svg.selectAll()
             .data(nodes)
             .enter().append('g')
             .attr('transform', `translate(${that.width / 2}, ${that.height / 2})`);
     
         // populate groups with circle elements
-        const circles = groups.append('circle')
+        this.circles = this.groups.append('circle')
             .style('fill', that.color)
             .classed('circle', true);
     
         // populate groups with player images
-        const images = groups.append('image')
+        this.images = this.groups.append('image')
             .attr('x', d => d.r * -1.25)
             .attr('y', d => d.r * -1.25 + d.r / 6.8)
             .attr('href', d => d.data.PLAYER.imageUrl)
@@ -131,27 +126,27 @@ class BubbleChart {
             .attr("height", d => d.r * 2.5)
             .attr('clip-path', d => `circle(${d.r} at ${d.r * 1.25} ${d.r * 1.25 - d.r / 6.8})`);
 
-        groups.transition()
+        this.groups.transition()
             .ease(d3.easeCubicInOut)
             .duration(600)
             .attr('transform', d => `translate(${d.x}, ${d.y})`);
 
-        circles.transition()
+        this.circles.transition()
             .ease(d3.easeCubicInOut)
             .duration(600)
             .attr('r', d => d.r);
 
-        images.transition()
+        this.images.transition()
             .delay(250)
             .ease(d3.easeCubicInOut)
             .duration(600)
             .style('opacity', 1);
 
         // select tooltip div
-        const tooltip = d3.select('.tooltip');
+        const tooltip = d3.select('.tooltip').classed('display-none', true);
 
         // populate groups with invisible circles for hover functionality
-        groups.append('circle')
+        this.hover = this.groups.append('circle')
             .classed('hover', true)
             .attr('r', d => d.r)
             .attr('opacity', '0')
@@ -172,21 +167,20 @@ class BubbleChart {
             });
     }
 
-    redraw(data) {
-        const that = this;
-        const nodes = this.generate(data);
+    redraw() {
+        const nodes = this.generate();
 
-        d3.selectAll('g').join().data(nodes).transition()
+        this.groups.data(nodes).transition()
             .ease(d3.easeCubicInOut)
             .duration(600)
             .attr('transform', d => `translate(${d.x}, ${d.y})`);
 
-        d3.selectAll('.circle').join().data(nodes).transition()
+        this.circles.data(nodes).transition()
             .ease(d3.easeCubicInOut)
             .duration(600)
             .attr('r', d => d.r);
 
-        d3.selectAll('image').join().data(nodes).transition()
+        this.images.data(nodes).transition()
             .ease(d3.easeCubicInOut)
             .duration(600)
             .attr('x', d => d.r * -1.25)
@@ -198,31 +192,25 @@ class BubbleChart {
         // select tooltip div
         const tooltip = d3.select('.tooltip');
 
-        d3.selectAll('.hover').join().data(nodes).attr('r', d => d.r)
-        .on('mouseover', function (e, d) {
-            tooltip.classed('display-none', false);
-            tooltip.select('#player-name')
-                .text(d.data.PLAYER.display);
-            tooltip.select('#stat-value')
-                .text(`${d.data[that.stat].display} ${that.statString.apply(that)}`);
-    
-            d3.select(this.parentNode).select('circle').attr('opacity', '.75');
-        });
+        this.hover.data(nodes).attr('r', d => d.r);
     }
 
     async changeMode(mode) {
         this.mode = mode;
+        const data = await loadData(this.teamId, mode);
+        
         if (mode !== 'perGame') {
             const that = this;
-            const data = await loadData(this.teamId, mode);
             data.forEach((obj, i) => {
                 obj.sort((p1, p2) => {
                     if (that.data[i].findIndex(el => el.PLAYER.display === p1.PLAYER.display) < that.data[i].findIndex(el => el.PLAYER.display === p2.PLAYER.display)) return -1;
                     return 1;
                 })
             });
-            this.redraw(data);
-        } else this.redraw();
+        }
+
+        this.data = data;
+        this.redraw();
     }
 
     statString() {

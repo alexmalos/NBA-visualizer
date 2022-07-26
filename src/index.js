@@ -1,5 +1,5 @@
 import BubbleChart from "./scripts/bubbleChart";
-import * as checkers from "./scripts/checker";
+import * as setOptions from "./scripts/checker";
 
 document.addEventListener('DOMContentLoaded', () => {
     // renders initial chart
@@ -16,16 +16,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // sets event listeners to render a new chart when each selector is changed
     teamSelect.addEventListener('change', () => {
         modeSelect[0].selected = true;
-        checkers.setYearOptionsForTeam(teamSelect.value);
+        setOptions.teamChange(teamSelect.value);
         chart = new BubbleChart();
     });
     modeSelect.addEventListener('change', () => {
-        checkers.setStatOptionsForMode(modeSelect.value);
+        setOptions.modeChange(modeSelect.value);
         chart.changeMode(modeSelect.value);
     });
     yearSelect.addEventListener('change', () => {
         modeSelect[0].selected = true;
-        checkers.setStatOptionsForYear(yearSelect.value);
+        setOptions.yearChange(yearSelect.value);
         chart = new BubbleChart();
     });
     statSelect.addEventListener('change', () => {

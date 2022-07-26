@@ -69,3 +69,7 @@ table {
 image {
   opacity: 0;
 }
+
+.hidden {
+  visibility: hidden;
+}

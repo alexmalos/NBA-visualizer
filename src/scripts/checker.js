@@ -43,7 +43,7 @@ const statStartYears = {
     'TOV': 1978
 }
 
-export function setYearOptionsForTeam(team) {
+export function teamChange(team) {
     // turn off all year options before given team start year, turn on all others
     const startYear = teamStartYears[team];
     [...document.getElementById('year-select').options].forEach(option => {
@@ -58,7 +58,7 @@ export function setYearOptionsForTeam(team) {
     });
 }
 
-export function setStatOptionsForYear(year) {
+export function yearChange(year) {
     const statOptions = [...document.getElementById('stat-select').options]
     statOptions.forEach(option => {
         const statYear = statStartYears[option.value];
@@ -86,7 +86,7 @@ export function setStatOptionsForYear(year) {
     }
 }
 
-export function setStatOptionsForMode(mode) {
+export function modeChange(mode) {
     const minOption = document.getElementById('stat-select').options[0]
     if (mode === 'per36Minutes') {
         if (minOption.selected) {
