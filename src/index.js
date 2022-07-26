@@ -1,8 +1,10 @@
 import BubbleChart from "./scripts/bubbleChart";
 import * as setOptions from "./scripts/checker";
+import loadTeamInfo from "./scripts/loadTeamInfo";
 
 document.addEventListener('DOMContentLoaded', () => {
     // renders initial chart
+    loadTeamInfo();
     let chart = new BubbleChart();
 
     // saves selectors to variables
@@ -17,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     teamSelect.addEventListener('change', () => {
         modeSelect[0].selected = true;
         setOptions.teamChange(teamSelect.value);
+        loadTeamInfo();
         chart = new BubbleChart();
     });
     modeSelect.addEventListener('change', () => {
@@ -26,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     yearSelect.addEventListener('change', () => {
         modeSelect[0].selected = true;
         setOptions.yearChange(yearSelect.value);
+        loadTeamInfo();
         chart = new BubbleChart();
     });
     statSelect.addEventListener('change', () => {

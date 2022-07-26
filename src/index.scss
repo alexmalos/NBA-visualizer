@@ -1,5 +1,7 @@
 @import './styles/reset.scss';
 @import './styles/tooltip.scss';
+@import './styles/flexbox.scss';
+@import './styles/select.scss';
 
 .display-none {
     display: none;
@@ -11,4 +13,19 @@ image {
 
 .hidden {
     visibility: hidden;
+}
+
+.hover {
+    cursor: pointer;
+}
+
+#reference {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
 }

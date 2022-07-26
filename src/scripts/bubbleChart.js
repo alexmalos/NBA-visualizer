@@ -35,9 +35,9 @@ const colors = {
     24: '#002B5C'
 };
 
-class BubbleChart {
+export default class BubbleChart {
     constructor() {
-        this.width = window.innerWidth;
+        this.width = window.innerWidth / 2;
         this.height = window.innerHeight * 0.9;
         this.teamId = document.getElementById('team-select').value;
         this.stat = document.getElementById('stat-select').value;
@@ -143,7 +143,7 @@ class BubbleChart {
             .style('opacity', 1);
 
         // select tooltip div
-        const tooltip = d3.select('.tooltip').classed('display-none', true);
+        const tooltip = d3.select('.tooltip');
 
         // populate groups with invisible circles for hover functionality
         this.hover = this.groups.append('circle')
@@ -164,6 +164,9 @@ class BubbleChart {
             .on('mouseout', function () {
                 d3.select(this.parentNode).select('circle').attr('opacity', '1');
                 tooltip.classed('display-none', true);
+            })
+            .on('click', (e, d) => {
+                window.open(`https://www.statmuse.com/nba/player/${d.data.PLAYER.entity.id}`, '_blank')
             });
     }
 
@@ -229,5 +232,3 @@ class BubbleChart {
         return statString;
     }
 }
-
-export default BubbleChart;

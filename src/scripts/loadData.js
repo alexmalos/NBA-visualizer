@@ -1,4 +1,4 @@
-async function loadData(teamId, mode) {
+export default async function loadData(teamId, mode) {
     const year = document.getElementById('year-select').value;
     mode ||= 'perGame';
 
@@ -22,5 +22,3 @@ async function loadData(teamId, mode) {
     }
     return data;
 }
-
-export default loadData;

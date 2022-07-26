@@ -1,0 +1,26 @@
+#container {
+    display: flex;
+    justify-content: left;
+}
+
+#team-info {
+    width: 35%;
+    text-align: center;
+}
+
+#team-info > * {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+svg {
+    position: relative;
+    bottom: 25px;
+}
+
+.statbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
