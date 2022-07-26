@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('range-value').innerHTML = minGamesSelect.value;
     });
     playoffsSelect.addEventListener('change', () => {
-        chart.render();
+        chart.redraw();
     });
 })
 

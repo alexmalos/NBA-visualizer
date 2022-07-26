@@ -40,12 +40,11 @@ class BubbleChart {
         this.width = window.innerWidth;
         this.height = window.innerHeight;
         this.teamId = document.getElementById('team-select').value;
-        this.mode = document.getElementById('mode-select').value;
         this.stat = document.getElementById('stat-select').value;
         this.color = colors[this.teamId];
 
         //fetches data and then renders the chart
-        loadData(this.teamId, this.mode).then(data => {
+        loadData(this.teamId).then(data => {
             this.data = data;
             this.playoffs = this.checkPlayoffs();
             this.setMaxGamesPlayed();
@@ -110,7 +109,7 @@ class BubbleChart {
             .style('height', that.height);
     
         // clear any elements inside the svg
-        svg.selectAll('*').remove();
+        svg.selectAll('*').transition().duration(400).style('opacity', 0).remove();
     
         // populate svg with group elements
         const groups = svg.selectAll()
@@ -215,7 +214,7 @@ class BubbleChart {
         this.mode = mode;
         if (mode !== 'perGame') {
             const that = this;
-            const data = await loadData(this.teamId, mode, this.data);
+            const data = await loadData(this.teamId, mode);
             data.forEach((obj, i) => {
                 obj.sort((p1, p2) => {
                     if (that.data[i].findIndex(el => el.PLAYER.display === p1.PLAYER.display) < that.data[i].findIndex(el => el.PLAYER.display === p2.PLAYER.display)) return -1;
