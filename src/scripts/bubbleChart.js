@@ -3,45 +3,45 @@ import loadData from "./loadData";
 
 // colors for each team
 const colors = {
-    22: '#C8102E',
-    1: '#007A33',
-    33: '#777D84',
-    53: '#00788C',
-    25: '#CE1141',
-    42: '#860038',
-    46: '#00538C',
-    28: '#0E2240',
-    13: '#1C428A',
-    6: '#1C428A',
-    37: '#CE1141',
-    30: '#002D62',
-    41: '#1D428A',
-    15: '#552583',
-    52: '#5D76A9',
-    48: '#98002E',
-    39: '#00471B',
-    49: '#236192',
-    47: '#0C2340',
-    5: '#003CA6',
-    38: '#007AC1',
-    50: '#0077C0',
-    21: '#003DA6',
-    40: '#1D1160',
-    43: '#D00527',
-    16: '#5A2D81',
-    27: '#8E9093',
-    51: '#CE1141',
-    45: '#002B5C',
-    24: '#002B5C'
+    22: ['#C8102E', '#FDB927'],
+    1: ['#007A33', 'white'],
+    33: ['#777D84', 'black'],
+    53: ['#00788C', 'white'],
+    25: ['#CE1141', 'black'],
+    42: ['#860038', '#FDBB30'],
+    46: ['#00538C', 'white'],
+    28: ['#0E2240', '#FEC524'],
+    13: ['#1C428A', 'white'],
+    6: ['#1C428A', '#FFC72C'],
+    37: ['#CE1141', 'black'],
+    30: ['#002D62', '#FDBB30'],
+    41: ['#1D428A', 'white'],
+    15: ['#552583', '#FDB927'],
+    52: ['#5D76A9', '#12173F'],
+    48: ['#98002E', 'white'],
+    39: ['#00471B', '#EEE1C6'],
+    49: ['#236192', '#0C2340'],
+    47: ['#0C2340', '#c1a787'],
+    5: ['#003CA6', '#f88504'],
+    38: ['#007AC1', '#eb7160'],
+    50: ['#0077C0', 'white'],
+    21: ['#003DA6', '#ED174C'],
+    40: ['#1D1160', '#EB6101'],
+    43: ['#D00527', 'black'],
+    16: ['#5A2D81', 'white'],
+    27: ['#8E9093', 'black'],
+    51: ['#CE1141', 'black'],
+    45: ['#002B5C', '#F9A01B'],
+    24: ['#002B5C', '#D41723']
 };
 
 export default class BubbleChart {
     constructor() {
         this.width = window.innerWidth / 2;
-        this.height = window.innerHeight * 0.9;
+        this.height = window.innerHeight;
         this.teamId = document.getElementById('team-select').value;
         this.stat = document.getElementById('stat-select').value;
-        this.color = colors[this.teamId];
+        this.colors = colors[this.teamId];
         this.mode = 'perGame';
 
         //fetches data and then renders the chart
@@ -49,8 +49,15 @@ export default class BubbleChart {
             this.data = data;
             this.playoffs = this.checkPlayoffs();
             this.setMaxGamesPlayed();
+            this.changeInfoColor();
             this.render();
         });
+    }
+
+    changeInfoColor() {
+        const infoDiv = d3.select('#team-info')
+        infoDiv.transition().duration(600).style('background-color', this.colors[0]);
+        infoDiv.selectAll('*:not(#championship)').transition().duration(600).style('color', this.colors[1]);
     }
 
     checkPlayoffs() {
@@ -114,7 +121,7 @@ export default class BubbleChart {
     
         // populate groups with circle elements
         this.circles = this.groups.append('circle')
-            .style('fill', that.color)
+            .style('fill', that.colors[0])
             .classed('circle', true);
     
         // populate groups with player images

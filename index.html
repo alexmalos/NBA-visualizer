@@ -11,117 +11,7 @@
   </head>
 
   <body>
-    <h1>NBA Visualizer</h1>
-    <select id="team-select">
-      <option value="22">Atlanta Hawks</option>
-      <option value="1">Boston Celtics</option>
-      <option value="33">Brooklyn Nets</option>
-      <option value="53">Charlotte Hornets</option>
-      <option value="25">Chicago Bulls</option>
-      <option value="42">Cleveland Cavaliers</option>
-      <option value="46">Dallas Mavericks</option>
-      <option value="28">Denver Nuggets</option>
-      <option value="13">Detroit Pistons</option>
-      <option value="6" selected>Golden State Warriors</option>
-      <option value="37">Houston Rockets</option>
-      <option value="30">Indiana Pacers</option>
-      <option value="41">Los Angeles Clippers</option>
-      <option value="15">Los Angeles Lakers</option>
-      <option value="52">Memphis Grizzlies</option>
-      <option value="48">Miami Heat</option>
-      <option value="39">Milwaukee Bucks</option>
-      <option value="49">Minnesota Timberwolves</option>
-      <option value="47">New Orleans Pelicans</option>
-      <option value="5">New York Knicks</option>
-      <option value="38">Oklahoma City Thunder</option>
-      <option value="50">Orlando Magic</option>
-      <option value="21">Philadelphia 76ers</option>
-      <option value="40">Phoenix Suns</option>
-      <option value="43">Portland Trail Blazers</option>
-      <option value="16">Sacramento Kings</option>
-      <option value="27">San Antonio Spurs</option>
-      <option value="51">Toronto Raptors</option>
-      <option value="45">Utah Jazz</option>
-      <option value="24">Washington Wizards</option>
-    </select>
-    <select id="year-select">
-      <option value="2022" selected>2021-22</option>
-      <option value="2021">2020-21</option>
-      <option value="2020">2019-20</option>
-      <option value="2019">2018-19</option>
-      <option value="2018">2017-18</option>
-      <option value="2017">2016-17</option>
-      <option value="2016">2015-16</option>
-      <option value="2015">2014-15</option>
-      <option value="2014">2013-14</option>
-      <option value="2013">2012-13</option>
-      <option value="2012">2011-12</option>
-      <option value="2011">2010-11</option>
-      <option value="2010">2009-10</option>
-      <option value="2009">2008-09</option>
-      <option value="2008">2007-08</option>
-      <option value="2007">2006-07</option>
-      <option value="2006">2005-06</option>
-      <option value="2005">2004-05</option>
-      <option value="2004">2003-04</option>
-      <option value="2003">2002-03</option>
-      <option value="2002">2001-02</option>
-      <option value="2001">2000-01</option>
-      <option value="2000">1999-00</option>
-      <option value="1999">1998-99</option>
-      <option value="1998">1997-98</option>
-      <option value="1997">1996-97</option>
-      <option value="1996">1995-96</option>
-      <option value="1995">1994-95</option>
-      <option value="1994">1993-94</option>
-      <option value="1993">1992-93</option>
-      <option value="1992">1991-92</option>
-      <option value="1991">1990-91</option>
-      <option value="1990">1989-90</option>
-      <option value="1989">1988-89</option>
-      <option value="1988">1987-88</option>
-      <option value="1987">1986-87</option>
-      <option value="1986">1985-86</option>
-      <option value="1985">1984-85</option>
-      <option value="1984">1983-84</option>
-      <option value="1983">1982-83</option>
-      <option value="1982">1981-82</option>
-      <option value="1981">1980-81</option>
-      <option value="1980">1979-80</option>
-      <option value="1979">1978-79</option>
-      <option value="1978">1977-78</option>
-      <option value="1977">1976-77</option>
-      <option value="1976">1975-76</option>
-      <option value="1975">1974-75</option>
-      <option value="1974">1973-74</option>
-      <option value="1973">1972-73</option>
-      <option value="1972">1971-72</option>
-      <option value="1971">1970-71</option>
-      <option value="1970">1969-70</option>
-      <option value="1969">1968-69</option>
-      <option value="1968">1967-68</option>
-      <option value="1967">1966-67</option>
-      <option value="1966">1965-66</option>
-      <option value="1965">1964-65</option>
-      <option value="1964">1963-64</option>
-      <option value="1963">1962-63</option>
-      <option value="1962">1961-62</option>
-      <option value="1961">1960-61</option>
-      <option value="1960">1959-60</option>
-      <option value="1959">1958-59</option>
-      <option value="1958">1957-58</option>
-      <option value="1957">1956-57</option>
-      <option value="1956">1955-56</option>
-      <option value="1955">1954-55</option>
-      <option value="1954">1953-54</option>
-      <option value="1953">1952-53</option>
-      <option value="1952">1951-52</option>
-      <option value="1951">1950-51</option>
-      <option value="1950">1949-50</option>
-      <option value="1949">1948-49</option>
-      <option value="1948">1947-48</option>
-      <option value="1947">1946-47</option>
-    </select>
+    <!-- <h1>NBA Visualizer</h1> -->
     <select id="stat-select">
       <option value="MIN">Minutes Played</option>
       <option value="PTS" selected>Points</option>
@@ -155,28 +45,142 @@
     </div>
     <div id="container">
       <div id="team-info">
-        <p id="championship">🏆 NBA Champions 🏆</p>
-        <p id="record"></p>
-        <p id="standing"></p>
-        <div id="ORTG" class="stat">
-          <p class="stat-name">Offensive Rating</p>
-          <div class="statbox">
-            <span class="stat-value"></span>
-            <span class="stat-rank"></span>
-          </div>
-        </div>
-        <div id="DRTG" class="stat">
-          <p class="stat-name">Defensive Rating</p>
-          <div class="statbox">
-            <span class="stat-value"></span>
-            <span class="stat-rank"></span>
-          </div>
-        </div>
-        <div id="NETRTG" class="stat">
-          <p class="stat-name">Net Rating</p>
-          <div class="statbox">
-            <span class="stat-value"></span>
-            <span class="stat-rank"></span>
+        <select id="team-select">
+          <option value="22">Atlanta Hawks</option>
+          <option value="1">Boston Celtics</option>
+          <option value="33">Brooklyn Nets</option>
+          <option value="53">Charlotte Hornets</option>
+          <option value="25">Chicago Bulls</option>
+          <option value="42">Cleveland Cavaliers</option>
+          <option value="46">Dallas Mavericks</option>
+          <option value="28">Denver Nuggets</option>
+          <option value="13">Detroit Pistons</option>
+          <option value="6" selected>Golden State Warriors</option>
+          <option value="37">Houston Rockets</option>
+          <option value="30">Indiana Pacers</option>
+          <option value="41">Los Angeles Clippers</option>
+          <option value="15">Los Angeles Lakers</option>
+          <option value="52">Memphis Grizzlies</option>
+          <option value="48">Miami Heat</option>
+          <option value="39">Milwaukee Bucks</option>
+          <option value="49">Minnesota Timberwolves</option>
+          <option value="47">New Orleans Pelicans</option>
+          <option value="5">New York Knicks</option>
+          <option value="38">Oklahoma City Thunder</option>
+          <option value="50">Orlando Magic</option>
+          <option value="21">Philadelphia 76ers</option>
+          <option value="40">Phoenix Suns</option>
+          <option value="43">Portland Trail Blazers</option>
+          <option value="16">Sacramento Kings</option>
+          <option value="27">San Antonio Spurs</option>
+          <option value="51">Toronto Raptors</option>
+          <option value="45">Utah Jazz</option>
+          <option value="24">Washington Wizards</option>
+        </select>
+        <select id="year-select">
+          <option value="2022" selected>2021-22</option>
+          <option value="2021">2020-21</option>
+          <option value="2020">2019-20</option>
+          <option value="2019">2018-19</option>
+          <option value="2018">2017-18</option>
+          <option value="2017">2016-17</option>
+          <option value="2016">2015-16</option>
+          <option value="2015">2014-15</option>
+          <option value="2014">2013-14</option>
+          <option value="2013">2012-13</option>
+          <option value="2012">2011-12</option>
+          <option value="2011">2010-11</option>
+          <option value="2010">2009-10</option>
+          <option value="2009">2008-09</option>
+          <option value="2008">2007-08</option>
+          <option value="2007">2006-07</option>
+          <option value="2006">2005-06</option>
+          <option value="2005">2004-05</option>
+          <option value="2004">2003-04</option>
+          <option value="2003">2002-03</option>
+          <option value="2002">2001-02</option>
+          <option value="2001">2000-01</option>
+          <option value="2000">1999-00</option>
+          <option value="1999">1998-99</option>
+          <option value="1998">1997-98</option>
+          <option value="1997">1996-97</option>
+          <option value="1996">1995-96</option>
+          <option value="1995">1994-95</option>
+          <option value="1994">1993-94</option>
+          <option value="1993">1992-93</option>
+          <option value="1992">1991-92</option>
+          <option value="1991">1990-91</option>
+          <option value="1990">1989-90</option>
+          <option value="1989">1988-89</option>
+          <option value="1988">1987-88</option>
+          <option value="1987">1986-87</option>
+          <option value="1986">1985-86</option>
+          <option value="1985">1984-85</option>
+          <option value="1984">1983-84</option>
+          <option value="1983">1982-83</option>
+          <option value="1982">1981-82</option>
+          <option value="1981">1980-81</option>
+          <option value="1980">1979-80</option>
+          <option value="1979">1978-79</option>
+          <option value="1978">1977-78</option>
+          <option value="1977">1976-77</option>
+          <option value="1976">1975-76</option>
+          <option value="1975">1974-75</option>
+          <option value="1974">1973-74</option>
+          <option value="1973">1972-73</option>
+          <option value="1972">1971-72</option>
+          <option value="1971">1970-71</option>
+          <option value="1970">1969-70</option>
+          <option value="1969">1968-69</option>
+          <option value="1968">1967-68</option>
+          <option value="1967">1966-67</option>
+          <option value="1966">1965-66</option>
+          <option value="1965">1964-65</option>
+          <option value="1964">1963-64</option>
+          <option value="1963">1962-63</option>
+          <option value="1962">1961-62</option>
+          <option value="1961">1960-61</option>
+          <option value="1960">1959-60</option>
+          <option value="1959">1958-59</option>
+          <option value="1958">1957-58</option>
+          <option value="1957">1956-57</option>
+          <option value="1956">1955-56</option>
+          <option value="1955">1954-55</option>
+          <option value="1954">1953-54</option>
+          <option value="1953">1952-53</option>
+          <option value="1952">1951-52</option>
+          <option value="1951">1950-51</option>
+          <option value="1950">1949-50</option>
+          <option value="1949">1948-49</option>
+          <option value="1948">1947-48</option>
+          <option value="1947">1946-47</option>
+        </select>
+        <div id="team-stats">
+          <p id="championship">🏆 NBA Champions 🏆</p>
+          <p id="record"></p>
+          <p id="standing"></p>
+          <div id="rating-stats">
+            <div id="ORTG" class="stat">
+              <p class="stat-name">Offensive Rating</p>
+              <div class="statbox">
+                <span class="stat-value"></span>
+                <span class="stat-rank"></span>
+              </div>
+            </div>
+            <div id="DRTG" class="stat">
+              <p class="stat-name">Defensive Rating</p>
+              <div class="statbox">
+                <span class="stat-value"></span>
+                <span class="stat-rank"></span>
+              </div>
+            </div>
+            <div id="NETRTG" class="stat">
+              <p class="stat-name">Net Rating</p>
+              <div class="statbox">
+                <span class="stat-value"></span>
+                <span class="stat-rank"></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

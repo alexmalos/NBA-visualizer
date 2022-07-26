@@ -1,26 +1,41 @@
+$line-spacing: 0.6em;
+
 #container {
     display: flex;
     justify-content: left;
+    align-items: center;
+    position: relative;
+    bottom: 2%;
 }
 
 #team-info {
-    width: 35%;
     text-align: center;
+    font-size: 2em;
+    padding: 1%;
+    border-radius: 10%;
+    width: 22%;
+    margin: 0 6%;
 }
 
-#team-info > * {
-    width: fit-content;
+#team-info select {
+    margin-top: $line-spacing;
+}
+
+#team-info p {
+    margin: $line-spacing 0;
+}
+
+#rating-stats {
     margin: auto;
-    margin-bottom: 20px;
-}
-
-svg {
-    position: relative;
-    bottom: 25px;
+    width: fit-content;
 }
 
 .statbox {
     display: flex;
     justify-content: space-between;
-    margin-top: 5px;
+    margin: $line-spacing 0;
+}
+
+#championship {
+    color: #FFC72C;
 }

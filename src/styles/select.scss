@@ -1,7 +1,19 @@
 select {
     border: none;
     text-align: center;
+    background: none;
     &:focus { 
         outline: none !important;
     }
+}
+
+#team-select, #year-select {
+    font-size: 1em;
+    display: block;
+    margin: auto;
+}
+
+#team-select {
+    text-decoration: underline;
+    font-weight: bold;
 }
