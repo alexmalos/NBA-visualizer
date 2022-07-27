@@ -44,4 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
     playoffsSelect.addEventListener('change', () => {
         chart.redraw();
     });
+
+    document.getElementById('github').addEventListener('click', () => {
+        window.open('https://github.com/alexmalos/NBA-visualizer', '_blank');
+    });
 })

@@ -1,0 +1,89 @@
+#header {
+    h1 {
+        text-align: center;
+        font-size: 3em;
+        padding: 1%;
+        border-bottom: 2px solid;
+    }
+
+    svg {
+        position: fixed;
+        top: 2%;
+        right: 2%;
+        width: 2.5%;
+        cursor: pointer;
+    }
+
+    #filter-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #filters {
+        display: flex;
+        width: fit-content;
+        align-items: center;
+    }
+
+    .select-div {
+        padding-right: 1.5em;
+        margin: 1em 3em;
+    }
+
+    .select-div::after {
+        top: 33%;
+        font-size: 1em;
+    }
+
+    #min-games-div {
+        margin: 0 3em;
+
+        p {
+            font-size: 1.5em;
+            pointer-events: none;
+        }
+
+        span { pointer-events: none; font-size: 1.25em; }
+        
+        #slider-div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        input {
+            width: 85%;
+            margin: 4% 5%;
+            margin-left: 0;
+            appearance: none;
+            background-color: transparent;
+            --slider-color: #DDDDDD;
+        }
+
+        input::-webkit-slider-thumb {
+            appearance: none;
+            height: 1.25em;
+            width: 1.25em;
+            border-radius: 100%;
+            margin-top: -0.5em;
+            background-color: #DDDDDD;
+            background-color: var(--slider-color);
+        }
+
+        input::-webkit-slider-thumb:hover { filter: brightness(80%); }
+
+        input::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 0.25em;
+            background-color: #DDDDDD;
+            background-color: var(--slider-color);
+            border-radius: 2px;
+          }
+    }
+
+    #about {
+        margin-right: 2%;
+        font-size: 2em;
+        pointer-events: none;
+    }
+}

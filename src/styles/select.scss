@@ -1,4 +1,5 @@
 select {
+    appearance: none;
     border: none;
     text-align: center;
     background: none;
@@ -8,18 +9,16 @@ select {
     }
 }
 
-.flex-select {
-    font-size: 1em;
-    display: block;
+.select-div {
+    position: relative;
+    width: fit-content;
     margin: auto;
 }
 
-#team-select {
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-#min-games-div * {
-    display: inline;
-    font-size: 2em;
+.select-div::after {
+    content: '\25BC';
+    position: absolute;
+    top: 55%;
+    right: 0;
+    pointer-events: none;
 }
