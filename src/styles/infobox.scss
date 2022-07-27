@@ -1,12 +1,5 @@
 $line-spacing: 0.6em;
 
-#content-flex {
-    display: flex;
-    align-items: center;
-    // position: relative;
-    // bottom: 2%;
-}
-
 #team-info {
     text-align: center;
     font-size: 2em;
@@ -22,7 +15,10 @@ $line-spacing: 0.6em;
 
     p { margin: $line-spacing 0; }
 
-    .select-div { padding-right: .75em; }
+    .select-div {
+        padding-right: .75em;
+        margin: auto;
+    }
 
     .select-div::after { font-size: 0.5em; }
     

@@ -1,35 +1,27 @@
 #header {
     h1 {
         text-align: center;
-        font-size: 3em;
+        font-size: 4em;
         padding: 1%;
         border-bottom: 2px solid;
     }
 
     svg {
         position: fixed;
-        top: 2%;
+        top: 3%;
         right: 2%;
-        width: 2.5%;
+        width: 3em;
         cursor: pointer;
-    }
-
-    #filter-bar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
     
     #filters {
         display: flex;
-        width: fit-content;
+        justify-content: space-around;
         align-items: center;
+        padding: 0.6em 0;
     }
 
-    .select-div {
-        padding-right: 1.5em;
-        margin: 1em 3em;
-    }
+    .select-div { padding-right: 1.5em;  }
 
     .select-div::after {
         top: 33%;
@@ -37,8 +29,6 @@
     }
 
     #min-games-div {
-        margin: 0 3em;
-
         p {
             font-size: 1.5em;
             pointer-events: none;
@@ -70,7 +60,7 @@
             background-color: var(--slider-color);
         }
 
-        input::-webkit-slider-thumb:hover { filter: invert(25%); }
+        input::-webkit-slider-thumb:hover { filter: invert(20%); }
 
         input::-webkit-slider-runnable-track {
             width: 100%;
@@ -82,7 +72,6 @@
     }
 
     #about {
-        margin-right: 2%;
         font-size: 2em;
         pointer-events: none;
     }

@@ -17,6 +17,12 @@ image { opacity: 0; }
 }
 
 body {
-    background-color: #dddddd;
+    background-color: #DDDDDD;
     * { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+    font-size: 16px;
+}
+
+#content-flex {
+    display: flex;
+    align-items: center;
 }

@@ -38,7 +38,7 @@ const colors = {
 export default class BubbleChart {
     constructor() {
         this.width = window.innerWidth / 2;
-        this.height = window.innerHeight * 0.83;
+        this.height = window.innerHeight * 0.82;
         this.teamId = document.getElementById('team-select').value;
         this.stat = document.getElementById('stat-select').value;
         this.colors = colors[this.teamId];
@@ -49,23 +49,22 @@ export default class BubbleChart {
             this.data = data;
             this.playoffs = this.checkPlayoffs();
             this.setMaxGamesPlayed();
-            this.changeColorsOnPage();
             this.render();
         });
     }
 
     changeColorsOnPage() {
         const header = d3.select('#header');
-        header.transition().duration(600).style('background-color', this.colors[0]);
-        header.selectAll('*').transition().duration(600).style('color', this.colors[1]);
+        header.transition().duration(1000).style('background-color', this.colors[0]);
+        header.selectAll('*').transition().duration(1000).style('color', this.colors[1]);
 
         const infoDiv = d3.select('#team-info');
-        infoDiv.transition().duration(600).style('background-color', this.colors[0]);
-        infoDiv.selectAll('*:not(#championship)').transition().duration(600).style('color', this.colors[1]);
+        infoDiv.transition().duration(1000).style('background-color', this.colors[0]);
+        infoDiv.selectAll('*:not(#championship)').transition().duration(1000).style('color', this.colors[1]);
 
-        d3.select('#github').transition().duration(600).style('fill', this.colors[1]);
+        d3.select('#github').transition().duration(1000).style('fill', this.colors[1]);
 
-        d3.select("#min-games-range").transition().duration(600).style('--slider-color', this.colors[1]);
+        d3.select("#min-games-range").transition().duration(1000).style('--slider-color', this.colors[1]);
     }
 
     checkPlayoffs() {
@@ -158,7 +157,7 @@ export default class BubbleChart {
             .style('opacity', 1);
 
         // select tooltip div
-        const tooltip = d3.select('.tooltip');
+        const tooltip = d3.select('#tooltip');
 
         // populate groups with invisible circles for hover functionality
         this.hover = this.groups.append('circle')
@@ -175,7 +174,7 @@ export default class BubbleChart {
                 d3.select(this.parentNode).select('circle').attr('opacity', '.75');
             })
             .on('mousemove', e => tooltip.style('top', `${e.pageY}px`)
-                .style('left', `${e.pageX + 10}px`))
+                .style('left', `${e.pageX + 12}px`))
             .on('mouseout', function () {
                 d3.select(this.parentNode).select('circle').attr('opacity', '1');
                 tooltip.classed('display-none', true);

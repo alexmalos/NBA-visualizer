@@ -59,7 +59,7 @@ export function teamChange(team) {
 }
 
 export function yearChange(year) {
-    const statOptions = [...document.getElementById('stat-select').options]
+    const statOptions = [...document.getElementById('stat-select').options];
     statOptions.forEach(option => {
         const statYear = statStartYears[option.value];
         if (statYear && year < statYear) {
@@ -87,7 +87,7 @@ export function yearChange(year) {
 }
 
 export function modeChange(mode) {
-    const minOption = document.getElementById('stat-select').options[0]
+    const minOption = document.getElementById('stat-select').options[0];
     if (mode === 'per36Minutes') {
         if (minOption.selected) {
             document.getElementById('stat-select')[1].selected = true;

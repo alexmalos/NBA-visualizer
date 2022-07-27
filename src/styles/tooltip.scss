@@ -1,6 +1,6 @@
-.tooltip {
+#tooltip {
     position: absolute;
-    background-color: lightgray;
+    background-color: #DDDDDD;
     text-align: center;
     border: 2px solid black;
     border-radius: 8px;
@@ -8,4 +8,14 @@
     font-size: 1.5em;
 
      * { margin: 0.25em; }
+}
+
+#about-text {
+    position: absolute;
+    background-color: #DDDDDD;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 0.25em;
+    font-size: 1.5em;
 }
