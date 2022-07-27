@@ -1,11 +1,15 @@
 $line-spacing: 0.6em;
 
-#container {
+#content-flex {
     display: flex;
-    justify-content: left;
     align-items: center;
-    position: relative;
-    bottom: 2%;
+    // position: relative;
+    // bottom: 2%;
+}
+
+#filter-flex {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #team-info {

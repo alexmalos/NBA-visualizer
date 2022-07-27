@@ -2,12 +2,13 @@ select {
     border: none;
     text-align: center;
     background: none;
+    font-size: 2em;
     &:focus { 
         outline: none !important;
     }
 }
 
-#team-select, #year-select {
+.flex-select {
     font-size: 1em;
     display: block;
     margin: auto;
@@ -16,4 +17,9 @@ select {
 #team-select {
     text-decoration: underline;
     font-weight: bold;
+}
+
+#min-games-div * {
+    display: inline;
+    font-size: 2em;
 }

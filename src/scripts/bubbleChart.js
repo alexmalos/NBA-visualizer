@@ -110,7 +110,7 @@ export default class BubbleChart {
             .style('width', that.width)
             .style('height', that.height);
     
-        // clear any elements inside the svg
+        // fade out and clear any elements inside the svg
         svg.selectAll('*').transition().duration(600).style('opacity', 0).remove();
     
         // populate svg with group elements
@@ -198,9 +198,6 @@ export default class BubbleChart {
             .attr("width", d => d.r * 2.5)
             .attr("height", d => d.r * 2.5)
             .attr('clip-path', d => `circle(${d.r} at ${d.r * 1.25} ${d.r * 1.25 - d.r / 6.8})`);
-
-        // select tooltip div
-        const tooltip = d3.select('.tooltip');
 
         this.hover.data(nodes).attr('r', d => d.r);
     }

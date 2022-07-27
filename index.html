@@ -12,40 +12,42 @@
 
   <body>
     <!-- <h1>NBA Visualizer</h1> -->
-    <select id="stat-select">
-      <option value="MIN">Minutes Played</option>
-      <option value="PTS" selected>Points</option>
-      <option value="FGM">Field Goals Made</option>
-      <option value="FGA">Field Goals Attempted</option>
-      <option value="3PM">3 Point Field Goals Made</option>
-      <option value="3PA">3 Point Field Goals Attempted</option>
-      <option value="FTM">Free Throws Made</option>
-      <option value="FTA">Free Throws Attempted</option>
-      <option value="OREB">Offensive Rebounds</option>
-      <option value="DREB">Defensive Rebounds</option>
-      <option value="REB">Rebounds</option>
-      <option value="AST">Assists</option>
-      <option value="TOV">Turnovers</option>
-      <option value="STL">Steals</option>
-      <option value="BLK">Blocks</option>
-      <option value="PF">Personal Fouls</option>
-    </select>
-    <select id="playoffs-select">
-      <option value="" selected>Regular Season</option>
-      <option value="true">Playoffs</option>
-    </select>
-    <select id="mode-select">
-      <option value="perGame" selected>Per Game</option>
-      <option value="per36Minutes">Per 36 Minutes</option>
-      <option value="totals">Totals</option>
-    </select>
-    <div id="min-games-div">
-      <input type="range" min="1" max="82" value="29" id="min-games-range">
-      <p id="range-value">29</p>
+    <div id="filter-flex">
+      <select id="stat-select">
+        <option value="MIN">Minutes Played</option>
+        <option value="PTS" selected>Points</option>
+        <option value="FGM">Field Goals Made</option>
+        <option value="FGA">Field Goals Attempted</option>
+        <option value="3PM">3 Point Field Goals Made</option>
+        <option value="3PA">3 Point Field Goals Attempted</option>
+        <option value="FTM">Free Throws Made</option>
+        <option value="FTA">Free Throws Attempted</option>
+        <option value="OREB">Offensive Rebounds</option>
+        <option value="DREB">Defensive Rebounds</option>
+        <option value="REB">Rebounds</option>
+        <option value="AST">Assists</option>
+        <option value="TOV">Turnovers</option>
+        <option value="STL">Steals</option>
+        <option value="BLK">Blocks</option>
+        <option value="PF">Personal Fouls</option>
+      </select>
+      <select id="playoffs-select">
+        <option value="" selected>Regular Season</option>
+        <option value="true">Playoffs</option>
+      </select>
+      <select id="mode-select">
+        <option value="perGame" selected>Per Game</option>
+        <option value="per36Minutes">Per 36 Minutes</option>
+        <option value="totals">Totals</option>
+      </select>
+      <div id="min-games-div">
+        <input type="range" min="1" max="82" value="29" id="min-games-range">
+        <p id="range-value">29</p>
+      </div>
     </div>
-    <div id="container">
+    <div id="content-flex">
       <div id="team-info">
-        <select id="team-select">
+        <select id="team-select" class="flex-select">
           <option value="22">Atlanta Hawks</option>
           <option value="1">Boston Celtics</option>
           <option value="33">Brooklyn Nets</option>
@@ -77,7 +79,7 @@
           <option value="45">Utah Jazz</option>
           <option value="24">Washington Wizards</option>
         </select>
-        <select id="year-select">
+        <select id="year-select" class="flex-select">
           <option value="2022" selected>2021-22</option>
           <option value="2021">2020-21</option>
           <option value="2020">2019-20</option>

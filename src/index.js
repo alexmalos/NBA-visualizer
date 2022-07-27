@@ -1,5 +1,5 @@
 import BubbleChart from "./scripts/bubbleChart";
-import * as setOptions from "./scripts/checker";
+import * as setOptions from "./scripts/setOptions";
 import loadTeamInfo from "./scripts/loadTeamInfo";
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -45,4 +45,3 @@ document.addEventListener('DOMContentLoaded', () => {
         chart.redraw();
     });
 })
-
