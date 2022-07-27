@@ -70,7 +70,7 @@
             background-color: var(--slider-color);
         }
 
-        input::-webkit-slider-thumb:hover { filter: brightness(80%); }
+        input::-webkit-slider-thumb:hover { filter: invert(25%); }
 
         input::-webkit-slider-runnable-track {
             width: 100%;
