@@ -87,8 +87,6 @@ export default class BubbleChart {
     }
 
     generate() {
-        const that = this;
-
         // get values from selectors
         this.stat = document.getElementById('stat-select').value;
         let minGames = document.getElementById('min-games-range').value;
@@ -96,14 +94,24 @@ export default class BubbleChart {
         if (this.playoffs && document.getElementById('playoffs-select').value) {
             minGames = 1;
             dataIndex = 1;
-            document.getElementById('min-games-div').classList.add('hidden');
-        } else document.getElementById('min-games-div').classList.remove('hidden');
+            d3.select('#min-games-div')
+                .transition()
+                .duration(600)
+                .style('opacity', 0);
+            document.getElementById('min-games-div').classList.add('no-interaction');
+        } else {
+            d3.select('#min-games-div')
+                .transition()
+                .duration(600)
+                .style('opacity', 1);
+            document.getElementById('min-games-div').classList.remove('no-interaction');
+        }
 
         // returns array of nodes with layout info for each data point
         return d3.pack()
-            .size([that.width, that.height])
+            .size([this.width, this.height])
             .padding(5)(d3.hierarchy({ children: this.data[dataIndex] }).sum(d => {
-                if (d[that.stat] && d.GP.value >= minGames) return d[that.stat].value;
+                if (d[this.stat] && d.GP.value >= minGames) return d[this.stat].value;
             }))
             .children;
     }
@@ -114,8 +122,8 @@ export default class BubbleChart {
 
         // select svg element
         const svg = d3.select('#bubble-chart')
-            .style('width', that.width)
-            .style('height', that.height);
+            .style('width', this.width)
+            .style('height', this.height);
     
         // fade out and clear any elements inside the svg
         svg.selectAll('*').transition().duration(600).style('opacity', 0).remove();
@@ -124,11 +132,11 @@ export default class BubbleChart {
         this.groups = svg.selectAll()
             .data(nodes)
             .enter().append('g')
-            .attr('transform', `translate(${that.width / 2}, ${that.height / 2})`);
+            .attr('transform', `translate(${this.width / 2}, ${this.height / 2})`);
     
         // populate groups with circle elements
         this.circles = this.groups.append('circle')
-            .style('fill', that.colors[0])
+            .style('fill', this.colors[0])
             .classed('circle', true);
     
         // populate groups with player images

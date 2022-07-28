@@ -34,7 +34,10 @@
             pointer-events: none;
         }
 
-        span { pointer-events: none; font-size: 1.25em; }
+        span {
+            pointer-events: none;
+            font-size: 1.25em;
+        }
         
         #slider-div {
             display: flex;
@@ -47,7 +50,7 @@
             margin-left: 0;
             appearance: none;
             background-color: transparent;
-            --slider-color: #DDDDDD;
+            --slider-color: #E5E4E2;
         }
 
         input::-webkit-slider-thumb {
@@ -56,7 +59,7 @@
             width: 1.25em;
             border-radius: 100%;
             margin-top: -0.5em;
-            background-color: #DDDDDD;
+            background-color: #E5E4E2;
             background-color: var(--slider-color);
         }
 
@@ -65,7 +68,7 @@
         input::-webkit-slider-runnable-track {
             width: 100%;
             height: 0.25em;
-            background-color: #DDDDDD;
+            background-color: #E5E4E2;
             background-color: var(--slider-color);
             border-radius: 2px;
           }
@@ -73,6 +76,6 @@
 
     #about {
         font-size: 2em;
-        pointer-events: none;
+        cursor: default;
     }
 }

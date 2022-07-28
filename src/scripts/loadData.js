@@ -15,7 +15,7 @@ export default async function loadData(teamId, mode) {
                 return {
                     "GP": { "value": 0 },
                     "PLAYER": { "display": "zzz" }
-                }
+                };
             }
             return data[1][i];
         })

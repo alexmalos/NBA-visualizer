@@ -57,10 +57,15 @@
             <span id="range-value">29</span>
           </div>
         </div>
-        <p id="about">About</p>
+        <p id="about">Help</p>
       </div>
     </div>
     <div id="content-flex">
+      <div id="about-text" class="hover display-none">
+        <p>Select the team and season you want to view on the left, then use the filters at the top to change the data shown on the chart.</p>
+        <p>Hover over a player to see the number they put up.</p>
+        <p>Click on a player to open their StatMuse page in a new tab.</p>
+      </div>
       <div id="team-info">
         <div class="select-div">
           <select id="team-select">
@@ -207,11 +212,10 @@
       </div>
       <svg id="bubble-chart"></svg>
     </div>
-    <div id="tooltip" class="display-none">
+    <div id="tooltip" class="hover display-none">
       <p id="player-name"></p>
       <p id="stat-value"></p>
     </div>
-    <p id="about-text" class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed impedit totam ratione aut. Odit officiis, similique eius expedita quia labore ad perspiciatis facilis, officia nesciunt, earum temporibus commodi iste esse!</p>
     <p id="reference">Data and player pictures sourced from <a href="https://www.statmuse.com/" target="_blank">statmuse.com</a></p>
   </body>
 

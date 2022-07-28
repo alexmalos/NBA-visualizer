@@ -6,11 +6,14 @@ export default async function loadTeamInfo() {
         `https://kyrie-proxy.herokuapp.com/https://api.statmuse.com/teams/v2/nba/${teamId}/${year}/overview`
     );
     let data = await response.json();
+
     const standings = data.bio.standing;
     const stats = data.bio.statsSummary.stats;
+
     [...document.getElementById('team-stats').children].forEach(el => {
         changeTeamStats(standings, el);
     });
+    
     [...document.getElementById('rating-stats').children].forEach(el => {
         changeRatingStats(stats, el);
     });

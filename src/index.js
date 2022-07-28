@@ -54,4 +54,15 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('github').addEventListener('click', () => {
         window.open('https://github.com/alexmalos/NBA-visualizer', '_blank');
     });
+
+    const about = document.getElementById('about');
+    const aboutText = document.getElementById('about-text');
+
+    about.addEventListener('mouseover', () => {
+        aboutText.classList.remove('display-none');
+    })
+    
+    about.addEventListener('mouseout', () => {
+        aboutText.classList.add('display-none');
+    })
 })

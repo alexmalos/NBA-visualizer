@@ -1,0 +1,23 @@
+.hover {
+    position: absolute;
+    background-color: #E5E4E2;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#tooltip {
+    padding: 0.25em;
+    font-size: 1.5em;
+
+     * { margin: 0.25em; }
+}
+
+#about-text {
+    top: 1vh;
+    right: 1vh;
+    max-width: 33vw;
+    padding: 0.5em;
+    font-size: 1.75em;
+    line-height: 1.5em;
+}
